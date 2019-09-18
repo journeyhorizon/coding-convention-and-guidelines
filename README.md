@@ -22,7 +22,7 @@ const ALLOWED_STATUS=['pending', 'cancel'];
 
 Always put spaces around operators ( = + - * / ), and after commas:
 
-```
+```js
 const total = preTax + tax;
 const ALLOWED_STATUS=['pending', 'cancel'];
 ```
@@ -30,7 +30,7 @@ const ALLOWED_STATUS=['pending', 'cancel'];
 
 Always use 2 spaces for indentation of code blocks:
 
-```
+```js
 const doSth = () => {
   return true;
 };
@@ -41,7 +41,7 @@ General rules for simple statements:
 
 - Always end a simple statement with a semicolon
 
-```
+```js
 const foo = 'foo';
 const doSth = () => {
   return true;
@@ -57,13 +57,13 @@ General rules for complex (compound) statements:
 - Do not end a complex statement with a semicolon.
 
 *Loops:*
-```
+```js
 for (i = 0; i < 100 i++) {
   x++;
 }
 ```
 *Conditionals:*
-```
+```js
 if (good) {
   return 'Good day';
 } else {
@@ -80,7 +80,7 @@ General rules for object definitions:
 - Place the closing bracket on a new line, without leading spaces.
 - Always end an object definition with a semicolon.
 
-```
+```js
 const company = {
   name: 'JH',
   fullName: 'Journey Horizon',
@@ -94,7 +94,7 @@ const company = {
 
 Short objects can be written compressed, on one line, using spaces only between properties, like this:
 
-```
+```js
 const company = {name: 'JH', age: 1};
 ```
 
@@ -104,7 +104,7 @@ For readability, avoid lines longer than 80 characters.
 
 If a JavaScript statement does not fit on one line, the best place to break it, is after an operator or a comma.
 
-```
+```js
 document.getElementById('demo').innerHTML =
 'Hello';
 ```
@@ -113,7 +113,7 @@ document.getElementById('demo').innerHTML =
 
 You should always declare a new variable using `const` instead of `let` or `var`. In the worst case scenarior when there are no other way, you can use `let` but `var` is not allowed.
 
-```
+```js
 const foo = 'foo';
 let demoStr = '';
 for (i = 0; i < 5; i++) {
