@@ -14,7 +14,7 @@ This is the coding convention for Journey Horizon developers. Please read it kin
 
 - Unless when we are modifying a template that have different file naming convention, we should always use *camelCase* to name a file
 
-```
+```js
 const foo = 'foo';
 const ALLOWED_STATUS=['pending', 'cancel'];
 ```
