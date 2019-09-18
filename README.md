@@ -92,10 +92,10 @@ const company = {
 };
 ```
 
-Short objects can be written compressed, on one line, using spaces only between properties, like this:
+Always use a space between the properties and the object's brackets:
 
 ```js
-const company = {name: 'JH', age: 1};
+const company = { name: 'JH', age: 1 };
 ```
 
 ## Line Length < 80
