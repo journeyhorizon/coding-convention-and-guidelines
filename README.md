@@ -26,7 +26,7 @@ Always put spaces around operators ( = + - * / ), and after commas:
 const total = preTax + tax;
 const ALLOWED_STATUS=['pending', 'cancel'];
 ```
-##Code Indentation
+## Code Indentation
 
 Always use 2 spaces for indentation of code blocks:
 
