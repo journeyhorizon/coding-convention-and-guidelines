@@ -2,7 +2,7 @@
 This is the coding convention for Journey Horizon developers. Please read it kindly and carefully.
 
 
-## Variable Names & naming convention
+## Variable names & naming convention
 
 - We use *camelCase* for identifier names (variables and functions)
 
