@@ -127,5 +127,5 @@ Do not use ternary operator to call for function on one line
 
 ```js
 const isValid = true;
-isVallid ? doSth() : null; //Do not do this
+isValid ? doSth() : null; //Do not do this
 ```
