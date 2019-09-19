@@ -16,7 +16,7 @@ This is the coding convention for Journey Horizon developers. Please read it kin
 
 ```js
 const foo = 'foo';
-const ALLOWED_STATUS=['pending', 'cancel'];
+const ALLOWED_STATUS = ['pending', 'cancel'];
 ```
 ## Spaces Around Operators
 
@@ -24,7 +24,7 @@ Always put spaces around operators ( = + - * / ), and after commas:
 
 ```js
 const total = preTax + tax;
-const ALLOWED_STATUS=['pending', 'cancel'];
+const ALLOWED_STATUS = ['pending', 'cancel'];
 ```
 ## Code Indentation
 
