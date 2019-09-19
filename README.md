@@ -120,3 +120,12 @@ for (i = 0; i < 5; i++) {
     demoStr = demoStr + 'test';
 }
 ```
+
+## Ternary Operator
+
+Do not use ternary operator to call for function on one line
+
+```js
+const isValid = true;
+isVallid ? doSth() : null; //Do not do this
+```
