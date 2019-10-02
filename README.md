@@ -129,3 +129,8 @@ Do not use ternary operator to call for function on one line
 const isValid = true;
 isValid ? doSth() : null; //Do not do this
 ```
+
+##Note
+
+- Favor pure functions > factories > functional mixins > classes
+- Avoid the creation of is-a relationships between objects, mixins, or data types, favor object composition
