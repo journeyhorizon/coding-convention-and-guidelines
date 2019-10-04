@@ -14,6 +14,8 @@ This is the coding convention for Journey Horizon developers. Please read it kin
 
 - Unless when we are modifying a template that have different file naming convention, we should always use *camelCase* to name a file
 
+- When you are naming a variable, if it is not a function please name it as a noun or compound noun
+
 ```js
 const foo = 'foo';
 const ALLOWED_STATUS = ['pending', 'cancel'];
@@ -130,7 +132,7 @@ const isValid = true;
 isValid ? doSth() : null; //Do not do this
 ```
 
-##Note
+## Note
 
 - Favor pure functions > factories > functional mixins > classes
 - Avoid the creation of is-a relationships between objects, mixins, or data types, favor object composition
