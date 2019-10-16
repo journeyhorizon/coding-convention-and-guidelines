@@ -8,6 +8,12 @@ This is the coding convention for Journey Horizon developers. Please read it kin
 
 - Function name must always start with a *verb* if they stand alone and is not a property of any object
 
+```js
+• increment() is better than plusOne()
+• unzip() is better than filesFromZip()
+• filter(isActive, array) is better than activeItemsFromArray(isActive, array)
+```
+
 - All names start with a *letter*.
 
 - Global const should always have every letters capitalized and words separte by a *_*
@@ -20,6 +26,31 @@ This is the coding convention for Journey Horizon developers. Please read it kin
 const foo = 'foo';
 const ALLOWED_STATUS = ['pending', 'cancel'];
 ```
+
+- Use active voice
+
+```js
+• myFunction.wasCalled() is better than myFunction.hasBeenCalled() 
+• createUser() is better than User.create()
+• notify() is better than Notifier.doNotification()
+```
+
+- Name predicates and booleans as if they are yes or no questions
+
+```js
+• isActive(user) is better than getActiveStatus(user)
+• isFirstRun = false; is better than firstRun = false;
+```
+
+## Event Handlers
+
+Event handlers and lifecycle methods are an exception to the verb rule because they’re used as qualifiers; instead of expressing what to do, they express when to do it. They should be named so that they read, `<when to act, <verb>`.
+
+```js
+• element.onClick(handleClick) is better than element.click(handleClick)
+• component.onDragStart(handleDragStart) is better than component.startDrag(handleDragStart
+```
+
 ## Spaces Around Operators
 
 Always put spaces around operators ( = + - * / ), and after commas:
