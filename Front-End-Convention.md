@@ -14,7 +14,7 @@ This is the Front end coding convention for Journey Horizon developers. Please r
 6. Unzip the favicons.zip archive and replace the default icons and files in public/static/icons/ with the new icons
 7. Replace the default HTML snippet in public/index.html with the snippet from the generator.
   Note: Remove the manifest link from the snippet as we have a default manifest with extra data compared to the generated one. You can edit the default file as you wish.
-8. The map marker icon in the listing can be found in **public/static/icons/map-marker-32x32.png**. The dimensions should be 32x32 pixels, so the **favicon-32x32.png** file can be used to replace the map icon.
+8. The map marker icon in the listing can be found in **public/static/icons/map-marker-32x32.png**. The dimensions should be 32x32 pixels, so the **favicon-32x32.png** file can be used to copy and rename the new one to **map-marker-32x32.png** to create a map icon.
 
 ```html
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
