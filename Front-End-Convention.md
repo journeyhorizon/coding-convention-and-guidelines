@@ -17,6 +17,7 @@ This is the Front end coding convention for Journey Horizon developers. Please r
 8. The map marker icon in the listing can be found in **public/static/icons/map-marker-32x32.png**. The dimensions should be 32x32 pixels, so the **favicon-32x32.png** file can be used to copy and rename the new one to **map-marker-32x32.png** to create a map icon.
 
 ```html
+//html in snipet
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -29,6 +30,7 @@ This is the Front end coding convention for Journey Horizon developers. Please r
 ```
 
 ```html should be
+//html should be
 <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.png">
