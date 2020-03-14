@@ -4,11 +4,11 @@ This is the Front end coding convention for Journey Horizon developers. Please r
 
 ## Update Brand, Colors and Icons
 
-- We this favicon generator tool *https://realfavicongenerator.net/* for generate icons automatically
+- We this **Favicon generator tool** (*https://realfavicongenerator.net/*) for generate icons automatically
 
 - After upload, cofig icons, we downloaded icon compression file and unzip in project/public/static/icons
 
-- There is no *map-marker-32x32.png* file in the package, so we need to clone this *favicon-32x32.png* file and rename the new clone file to *map-marker-32x32.png*
+- There is no **map-marker-32x32.png** file in the package, so we need to clone this **favicon-32x32.png** file and rename the new clone file to **map-marker-32x32.png**
 
 - You will see a html code below, copy and remember to set the correct path of files.
 
