@@ -10,7 +10,7 @@ This is the Front end coding convention for Journey Horizon developers. Please r
 
 - There is no **map-marker-32x32.png** file in the package, so we need to clone this **favicon-32x32.png** file and rename the new clone file to **map-marker-32x32.png**
 
-- You will see a html code below, copy and remember to set the correct path of files.
+- You will see a html code below, copy and paste it in the head of project/public/index.html. **Remember to set the correct path of files.**
 
 ```html
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
