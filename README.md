@@ -2,7 +2,7 @@
 This is the coding convention for Journey Horizon developers. Please read it kindly and carefully.
 
 ## Front-end convention access this 
-[Front-end convention](https://github.com/journeyhorizon/coding-convention/blob/master/Front-End-Convention)
+[Front-end convention](https://github.com/journeyhorizon/coding-convention/blob/master/Front-End-Convention.md)
 
 ## Variable names & naming convention
 
