@@ -38,3 +38,6 @@ This is the Front end coding convention for Journey Horizon developers. Please r
 <meta name="msapplication-TileColor" content="#00aba9">
 <meta name="theme-color" content="#ffffff">
 ```
+
+## Ref
+https://www.sharetribe.com/docs/guides/how-to-change-ftw-icons/
