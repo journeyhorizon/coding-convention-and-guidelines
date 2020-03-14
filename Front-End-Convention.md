@@ -1,4 +1,4 @@
-#Front-End-convention
+## Front-End-convention
 This is the Front end coding convention for Journey Horizon developers. Please read it kindly and carefully.
 
 
