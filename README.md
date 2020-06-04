@@ -165,6 +165,28 @@ const isValid = true;
 isValid ? doSth() : null; //Do not do this
 ```
 
+Ternary operator should only be used to get values not to execute multiple lines of code
+
+Bad example for multiple lines of code
+```js
+const result = a 
+                ? (const test = 1; doSth(test);) 
+                : (const test = 3; doSthElse(test););
+```
+
+Ternary operator should not be nested more than 2 levels
+
+Maximum nested level example
+```js
+const result = a
+                  ? doSth()
+                  : b
+                     ? doSthElse()
+                     : doThisThing();
+```
+
+
+
 ## Note
 
 - Favor pure functions > factories > functional mixins > classes
