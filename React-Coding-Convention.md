@@ -29,7 +29,7 @@ This style guide is mostly based on the standards that are currently prevalent i
   - Only include one React component per file.
     - However, multiple Stateless components are allowed per file.
 
-    > Why? By doing this, we can read code quickly then fixing bugs or maintaining processes will be more efficiency.
+  > Why? By doing this, we can read code quickly then fixing bugs or maintaining processes will be more efficiency.
 
   - Always use JSX syntax.
   - Do not use `React.createElement` unless you’re initializing the app from a file that is not JSX.
