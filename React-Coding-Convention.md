@@ -28,6 +28,7 @@ This style guide is mostly based on the standards that are currently prevalent i
 
   - Only include one React component per file.
     - However, multiple Stateless components are allowed per file.
+
     > Why? By doing this, we can read code quickly then fixing bugs or maintaining processes will be more efficiency.
 
   - Always use JSX syntax.
@@ -36,6 +37,7 @@ This style guide is mostly based on the standards that are currently prevalent i
   - Defined types for every functions and components
     - With **Javascript Project**, always defined proptypes and default props.
     - With **Typescription Project**, try to avoid ***any*** or ***unknown*** type.
+
     > Why? By doing it, we will help other developers and ourself can manage types in good way and avoid unexpected bugs because of types. It is also a good document for us.
 
 ## Naming
@@ -153,7 +155,9 @@ This style guide is mostly based on the standards that are currently prevalent i
 ## Class and Function components
 
   - Should use Function components with hooks.
+
     > It can help us easy to split logic, reuse logic, and easy to read code.
+
   - Don't need to convert old components writing in Class to Function components. However, if you have time and need to convert to reuse hooks, just do it, and please ensure it does not break any previous flow. :). If you have time, do some regression tests after converting.
 
   - Avoid Huge component: Whenever it is possible, split your component into smaller chunks. Often applicable when you are using conditional rendering or defining the columns for a data grid, etc. Also applicable when a lot of custom hooks are used — check the section above.
@@ -758,6 +762,7 @@ This style guide is mostly based on the standards that are currently prevalent i
     ```
 
   - Use spread props sparingly.
+
   > Why? Otherwise you’re more likely to pass unnecessary props down to components. And for React v15.6.1 and older, you could [pass invalid HTML attributes to the DOM](https://reactjs.org/blog/2017/09/08/dom-attributes-in-react-16.html).
 
   Exceptions:
@@ -1008,6 +1013,7 @@ This style guide is mostly based on the standards that are currently prevalent i
     ```
 
   - Do not use underscore prefix for internal methods of a React component.
+
     > Why? Underscore prefixes are sometimes used as a convention in other languages to denote privacy. But, unlike those languages, there is no native support for privacy in JavaScript, everything is public. Regardless of your intentions, adding underscore prefixes to your properties does not actually make them private, and any property (underscore-prefixed or not) should be treated as being public. See issues [#1024](https://github.com/airbnb/javascript/issues/1024), and [#490](https://github.com/airbnb/javascript/issues/490) for a more in-depth discussion.
 
     ```jsx
@@ -1115,7 +1121,7 @@ This style guide is mostly based on the standards that are currently prevalent i
 
 
 
-## Refs:
+## Inspired by:
 
 https://github.com/airbnb/javascript
 https://levelup.gitconnected.com/react-code-conventions-and-best-practices-433e23ed69aa
