@@ -27,7 +27,6 @@ This style guide is mostly based on the standards that are currently prevalent i
 ## Basic Rules
 
   - Only include one React component per file.
-  
     - However, multiple Stateless components are allowed per file.
 
     > Why? By doing this, we can read code quickly then fixing bugs or maintaining processes will be more efficiency.
