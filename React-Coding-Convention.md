@@ -1123,5 +1123,5 @@ This style guide is mostly based on the standards that are currently prevalent i
 
 ## Inspired by:
 
-https://github.com/airbnb/javascript
-https://levelup.gitconnected.com/react-code-conventions-and-best-practices-433e23ed69aa
+  - https://github.com/airbnb/javascript
+  - https://levelup.gitconnected.com/react-code-conventions-and-best-practices-433e23ed69aa
