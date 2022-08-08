@@ -128,7 +128,7 @@ This style guide is mostly based on the standards that are currently prevalent i
       //...
     }
 
-    type userType {
+    type UserType {
       //...
     }
   ```
