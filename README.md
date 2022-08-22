@@ -4,6 +4,9 @@ This is the coding convention for Journey Horizon developers. Please read it kin
 ## Front-end convention access this 
 [Front-end convention](https://github.com/journeyhorizon/coding-convention/blob/master/Front-End-Convention.md)
 
+## Back-end convention 
+[Back-end convention](https://github.com/journeyhorizon/coding-convention/blob/master/Backend-Coding-Convention.md)
+
 ## Variable names & naming convention
 
 - We use *camelCase* for identifier names (variables and functions)
