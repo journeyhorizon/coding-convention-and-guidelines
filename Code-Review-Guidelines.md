@@ -31,6 +31,10 @@ This guidelines would have 4 sections, one for the reviewer and one for the one 
     - [Reverting to the Reviewee](#reverting-to-the-reviewee)
     - [Priorities](#priorities)
 
+
+----------------------------------
+
+
 # 1) Why should we have "code review"?
 
 ## 1.1) Sharing knowledge
@@ -49,6 +53,10 @@ This guidelines would have 4 sections, one for the reviewer and one for the one 
 ## 1.4) Quanlity control
 
 - Code reviews can help with catching defects, but even more importantly, they surface software design issues while they are still relatively easy to change. Instead of spending too much time for Tester and SE to find and reproduce bugs then try to fix a very small misktake in coding, we may resolve it very quickly in code review process. Less small bugs, shorter time to release features to clients.
+
+
+----------------------------------
+
 
 # 2) Our Code review process
 
@@ -88,6 +96,10 @@ This guidelines would have 4 sections, one for the reviewer and one for the one 
   - Guideline how to integrate and deploy
 - The author is responsible for merging their own PR on Test site.
 - How about production? Depend on the team?.
+
+
+----------------------------------
+
 
 # 3) Code Design for Review
 
@@ -165,6 +177,10 @@ You can format a file if you find it format is too irritating and can't be read 
 ## 3.7) When to ask for a review
 
 At the moment of this writing, each team is having a rules of it owns, we would discuss this further but as of now, follow your PM's instruction for when to ask for a review since some team would do it in a pre-defined time while some allow the freedom of asking.
+
+
+----------------------------------
+
 
 # 4) Code Review
 
