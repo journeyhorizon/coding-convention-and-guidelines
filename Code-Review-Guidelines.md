@@ -23,7 +23,8 @@ This guidelines would have 4 sections, one for the reviewer and one for the one 
   - [3.6) Avoid auto-formatting all files](#36-avoid-auto-formatting-all-files)
   - [3.7) When to ask for a review](#37-when-to-ask-for-a-review)
 4. [Code Review](#4-code-review)
-  - [4.1) Logic Review](#41-logic-review)
+  - [4.3) Focus on the right things](#41-focus-on-the-right-things)
+  - [4.2) Logic Review](#42-logic-review)
     - [Preparation](#preparation)
       - [General](#general)
       - [Specialized logic](#specialized-logic)
@@ -104,9 +105,11 @@ This guidelines would have 4 sections, one for the reviewer and one for the one 
 # 3) Code Design for Review
 
 Your code should ensure these things before a review was asked:
+
 ## 3.1) Intentional bad designs or dirty work 
 
 Any bad designs or dirty works should be commented properly on where it was coded, explaining the full intention.
+
 ## 3.2) The comments
 
 The comments for dirty work, or bad designs should includes these 3 things:
@@ -186,7 +189,21 @@ At the moment of this writing, each team is having a rules of it owns, we would 
 
 Review is communication process, there are plenty of things you can do for a review, this should only be a basic list of what you can do, not an exhaust list so you can always add more of your flavour to the review.
 
-## 4.1) Logic Review
+## 4.1) Focus on the right things
+
+Before going to review, we need to know which we should focus on in code reviews. Here's what we recommend focusing on:
+- **Functionality**: Does the code behave as the PR author likely intended? Does the code behave as users would expect?
+- **Software design**: Is the code well-designed and fitted to the surrounding architecture?
+- **Complexity**: Would another developer be able to easily understand and use the code?
+- **Naming**: Are names for variables, functions, etc. descriptive?
+- **Comments**: Are the comments clear and useful?
+- **Documentation**: Did the author also update relevant documentation?
+
+- **[Will implement in future][Leave it for now]** *Tests: Does the PR have correct and well-designed automated tests?*
+
+In the future we will implement some automatically checking bot to save your time, then developers shouldn't spend their time reviewing things that can be automatically checked.
+
+## 4.2) Logic Review
 
 ### Preparation
 
