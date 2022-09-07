@@ -1,14 +1,24 @@
-This guidelines would have 2 sections, one for the reviewer and one for the one that got reviewed.
-- [Code Design for Review](#code-design-for-review)
-  - [1) Intentional bad designs or dirty work](#1-intentional-bad-designs-or-dirty-work)
-  - [2) The comments](#2-the-comments)
-  - [3) Explaining Complicated works](#3-explaining-complicated-works)
-  - [4) If you are copying an existing file then modified it](#4-if-you-are-copying-an-existing-file-then-modified-it)
-  - [5) If your feature involves multiple branches](#5-if-your-feature-involves-multiple-branches)
-  - [6) Avoid auto-formatting all files](#6-avoid-auto-formatting-all-files)
-  - [7) When to ask for a review](#7-when-to-ask-for-a-review)
-- [Code Review](#code-review)
-  - [1) Logic Review](#1-logic-review)
+# CODE REVIEW - Journey Horizon Guideline
+
+This guidelines would have 4 sections, one for the reviewer and one for the one that got reviewed.
+
+## Table of Contents
+
+1. [Why should we have "code review"?](#1-why-should-we-have-code-review)
+  - [1.1) Sharing knowledge](#11-sharing-knowledge)
+  - [1.2) Spreading ownership](#12-spreading-ownership)
+  - [1.3) Unifying development practices](#13-unifying-development-practices)
+  - [1.4) Quanlity control](#14-quanlity-control)
+1. [Code Design for Review](#2-code-design-for-review)
+  - [2.1) Intentional bad designs or dirty work](#21-intentional-bad-designs-or-dirty-work)
+  - [2.2) The comments](#22-the-comments)
+  - [2.3) Explaining Complicated works](#23-explaining-complicated-works)
+  - [2.4) If you are copying an existing file then modified it](#24-if-you-are-copying-an-existing-file-then-modified-it)
+  - [2.5) If your feature involves multiple branches](#25-if-your-feature-involves-multiple-branches)
+  - [2.6) Avoid auto-formatting all files](#26-avoid-auto-formatting-all-files)
+  - [2.7) When to ask for a review](#27-when-to-ask-for-a-review)
+1. [Code Review](#3-code-review)
+  - [3.1) Logic Review](#31-logic-review)
     - [Preparation](#preparation)
       - [General](#general)
       - [Specialized logic](#specialized-logic)
@@ -16,20 +26,38 @@ This guidelines would have 2 sections, one for the reviewer and one for the one 
     - [Reverting to the Reviewee](#reverting-to-the-reviewee)
     - [Priorities](#priorities)
 
-# Code Design for Review
+# 1) Why should we have "code review"?
+
+## 1.1) Sharing knowledge
+
+- I know that we do not have much time for code review to scan and understand full of others' code, but some amount of information will always be transferred between members. The knowledge can be general tips about the framework, library or programming language or invaluable domain-specific information bits.
+
+## 1.2) Spreading ownership
+
+- Code reviews have a positive impact on mutual code ownership. It's easy to end up in a situation where one developer always deals with a certain part of the codebase because they're most familiar with it. It might be a short-term win but is often a long-term loss. When ownership is shared, teams become more motivated and autonomous.
+
+## 1.3) Unifying development practices
+
+- Every developer has their own tendencies and ways to implement software (functions, features, UI, UX, apis, server). Code reviews help to narrow the gap between individual development styles and make the codebase more unified. Unification happens through high-level discussions about architecture and software design and via logic and ui styling checks, such as coding convention enforcement.
+
+## 1.4) Quanlity control
+
+- Code reviews can help with catching defects, but even more importantly, they surface software design issues while they are still relatively easy to change. Instead of spending too much time for Tester and SE to find and reproduce bugs then try to fix a very small misktake in coding, we may resolve it very quickly in code review process. Less small bugs, shorter time to release features to clients.
+
+# 2) Code Design for Review
 
 Your code should ensure these things before a review was asked:
-## 1) Intentional bad designs or dirty work 
+## 2.1) Intentional bad designs or dirty work 
 
 Any bad designs or dirty works should be commented properly on where it was coded, explaining the full intention.
-## 2) The comments
+## 2.2) The comments
 
 The comments for dirty work, or bad designs should includes these 3 things:
   - Why - why did you make it dirty
   - Technical Debt - what could go wrong
   - Solution (optional) - how can we fix this in the future?
 
-## 3) Explaining Complicated works
+## 2.3) Explaining Complicated works
 
 The complicated parts should have comment explaining what it does, your code should always be self-explained. But we do not live in a perfect world, there bound to be things we have to do it with high complexity. In such cases, always remember to write out your code flow for other to understand.
 
@@ -75,29 +103,29 @@ const createTransferwireAccount = async (req, res) => {
 }
 ```
 
-## 4) If you are copying an existing file then modified it
+## 2.4) If you are copying an existing file then modified it
 
 You should state clearly in the PR by leaving comment on what was changed. It would save a lot of time for the reader to understand what you changed instead of going through an entire files.
 
-## 5) If your feature involves multiple branches
+## 2.5) If your feature involves multiple branches
 
 You should note it to the reviewer what branches your feature was based on. 
 
-## 6) Avoid auto-formatting all files
+## 2.6) Avoid auto-formatting all files
 
 You should only format the files that you touched, don't do auto-formatting all files because it would includes files that was not in your features. This would create code noise for the reviewer.
 
 You can format a file if you find it format is too irritating and can't be read but make sure that you know what you are doing.
 
-## 7) When to ask for a review
+## 2.7) When to ask for a review
 
 At the moment of this writing, each team is having a rules of it owns, we would discuss this further but as of now, follow your PM's instruction for when to ask for a review since some team would do it in a pre-defined time while some allow the freedom of asking.
 
-# Code Review
+# 3) Code Review
 
 Review is communication process, there are plenty of things you can do for a review, this should only be a basic list of what you can do, not an exhaust list so you can always add more of your flavour to the review.
 
-## 1) Logic Review
+## 3.1) Logic Review
 
 ### Preparation
 
