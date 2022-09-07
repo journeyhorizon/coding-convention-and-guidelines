@@ -9,16 +9,21 @@ This guidelines would have 4 sections, one for the reviewer and one for the one 
   - [1.2) Spreading ownership](#12-spreading-ownership)
   - [1.3) Unifying development practices](#13-unifying-development-practices)
   - [1.4) Quanlity control](#14-quanlity-control)
-2. [Code Design for Review](#2-code-design-for-review)
-  - [2.1) Intentional bad designs or dirty work](#21-intentional-bad-designs-or-dirty-work)
-  - [2.2) The comments](#22-the-comments)
-  - [2.3) Explaining Complicated works](#23-explaining-complicated-works)
-  - [2.4) If you are copying an existing file then modified it](#24-if-you-are-copying-an-existing-file-then-modified-it)
-  - [2.5) If your feature involves multiple branches](#25-if-your-feature-involves-multiple-branches)
-  - [2.6) Avoid auto-formatting all files](#26-avoid-auto-formatting-all-files)
-  - [2.7) When to ask for a review](#27-when-to-ask-for-a-review)
-3. [Code Review](#3-code-review)
-  - [3.1) Logic Review](#31-logic-review)
+2. [Our Code review process](#2-our-code-review-process)
+  - [2.1) Draft state](#21-draft-state)
+  - [2.2) Ready to Review](#22-ready-to-review)
+  - [2.3) Changes requested](#23-changes-requested)
+  - [2.4) Approved](#24-approved)
+3. [Code Design for Review](#3-code-design-for-review)
+  - [3.1) Intentional bad designs or dirty work](#31-intentional-bad-designs-or-dirty-work)
+  - [3.2) The comments](#32-the-comments)
+  - [3.3) Explaining Complicated works](#33-explaining-complicated-works)
+  - [3.4) If you are copying an existing file then modified it](#34-if-you-are-copying-an-existing-file-then-modified-it)
+  - [3.5) If your feature involves multiple branches](#35-if-your-feature-involves-multiple-branches)
+  - [3.6) Avoid auto-formatting all files](#36-avoid-auto-formatting-all-files)
+  - [3.7) When to ask for a review](#37-when-to-ask-for-a-review)
+4. [Code Review](#4-code-review)
+  - [4.1) Logic Review](#41-logic-review)
     - [Preparation](#preparation)
       - [General](#general)
       - [Specialized logic](#specialized-logic)
@@ -30,7 +35,8 @@ This guidelines would have 4 sections, one for the reviewer and one for the one 
 
 ## 1.1) Sharing knowledge
 
-- I know that we do not have much time for code review to scan and understand full of others' code, but some amount of information will always be transferred between members. The knowledge can be general tips about the framework, library or programming language or invaluable domain-specific information bits.
+- I know that we do not have much time for code review to scan and understand full of others' code, but some amount of information will always be transferred between members. The knowledge can be general tips about the framework, library or programming language, software design principles or invaluable domain-specific information bits.
+- It’s always fine to leave comments that help a developer learn something new. Sharing knowledge is part of improving the code health of a system over time.
 
 ## 1.2) Spreading ownership
 
@@ -44,20 +50,59 @@ This guidelines would have 4 sections, one for the reviewer and one for the one 
 
 - Code reviews can help with catching defects, but even more importantly, they surface software design issues while they are still relatively easy to change. Instead of spending too much time for Tester and SE to find and reproduce bugs then try to fix a very small misktake in coding, we may resolve it very quickly in code review process. Less small bugs, shorter time to release features to clients.
 
-# 2) Code Design for Review
+# 2) Our Code review process
+
+- To reduce confusing when do a code review process and unify our practice, here is a process for code review:
+  
+## 2.1) Draft state
+
+- You can open a PR in a draft state to show progress or request early feedback.
+- Which Draft state please add a status into PR name, such as "**[Draft]Create new carousel on homepage hero section**"
+- When you ready to have final PR, please remove Draft status by removing "**[Draft]**" in PR name, such as "**Create new carousel on homepage hero section**".
+
+## 2.2) Ready to Review
+
+- You can also skip the Draft state and open a normal PR directly.
+- The review is done by another team member.
+- Remember to resolve conflict before assign reviewer [How to resolve confict in right way](#here)
+- Remember to assign reviewer
+- Remember to note all neccessary things into PR description: 
+  - Environment variables.
+  - Important notes, warnings.
+  - Guideline how to integrate and deploy
+- Reviewers will join and send reviews and feedbacks.
+
+- **[Will implement in future][Leave it for now]** *Usually, there's no need to request a review (Assign reviewer); Our bots automatically notifies the team.*
+
+## 2.3) Changes requested
+
+- Fix the requested changes, or discuss whether a fix is needed.
+- Reviewers re-check changes.
+- Preferably, create new commits after the review.
+
+## 2.4) Approved
+
+- Remember to read notes on PR description: 
+  - Environment variables.
+  - Important notes, warnings.
+  - Guideline how to integrate and deploy
+- The author is responsible for merging their own PR on Test site.
+- How about production? Depend on the team?.
+
+# 3) Code Design for Review
 
 Your code should ensure these things before a review was asked:
-## 2.1) Intentional bad designs or dirty work 
+## 3.1) Intentional bad designs or dirty work 
 
 Any bad designs or dirty works should be commented properly on where it was coded, explaining the full intention.
-## 2.2) The comments
+## 3.2) The comments
 
 The comments for dirty work, or bad designs should includes these 3 things:
   - Why - why did you make it dirty
   - Technical Debt - what could go wrong
   - Solution (optional) - how can we fix this in the future?
 
-## 2.3) Explaining Complicated works
+## 3.3) Explaining Complicated works
 
 The complicated parts should have comment explaining what it does, your code should always be self-explained. But we do not live in a perfect world, there bound to be things we have to do it with high complexity. In such cases, always remember to write out your code flow for other to understand.
 
@@ -103,29 +148,29 @@ const createTransferwireAccount = async (req, res) => {
 }
 ```
 
-## 2.4) If you are copying an existing file then modified it
+## 3.4) If you are copying an existing file then modified it
 
 You should state clearly in the PR by leaving comment on what was changed. It would save a lot of time for the reader to understand what you changed instead of going through an entire files.
 
-## 2.5) If your feature involves multiple branches
+## 3.5) If your feature involves multiple branches
 
 You should note it to the reviewer what branches your feature was based on. 
 
-## 2.6) Avoid auto-formatting all files
+## 3.6) Avoid auto-formatting all files
 
 You should only format the files that you touched, don't do auto-formatting all files because it would includes files that was not in your features. This would create code noise for the reviewer.
 
 You can format a file if you find it format is too irritating and can't be read but make sure that you know what you are doing.
 
-## 2.7) When to ask for a review
+## 3.7) When to ask for a review
 
 At the moment of this writing, each team is having a rules of it owns, we would discuss this further but as of now, follow your PM's instruction for when to ask for a review since some team would do it in a pre-defined time while some allow the freedom of asking.
 
-# 3) Code Review
+# 4) Code Review
 
 Review is communication process, there are plenty of things you can do for a review, this should only be a basic list of what you can do, not an exhaust list so you can always add more of your flavour to the review.
 
-## 3.1) Logic Review
+## 4.1) Logic Review
 
 ### Preparation
 
