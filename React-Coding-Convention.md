@@ -803,24 +803,38 @@ This style guide is mostly based on the standards that are currently prevalent i
     ```jsx
     // ❌
     render() {
-      const { irrelevantProp, ...relevantProps } = this.props;
+      // this.props content irrelevantProp1, irrelevantProp2 and relevantProps
+      // const { irrelevantProp1, irrelevantProp2, ...relevantProps } = this.props;
+
       return <WrappedComponent {...this.props} />
     } 
 
     // ✅
     render() {
-      const { irrelevantProp, ...relevantProps } = this.props;
+      // this.props content irrelevantProp1, irrelevantProp2 and relevantProps
+      // const { irrelevantProp1, irrelevantProp2, ...relevantProps } = this.props;
+
+      const { irrelevantProp1, irrelevantProp2, ...relevantProps } = this.props;
       return <WrappedComponent {...relevantProps} />
     }
     ```
 
-  - Avoid using inline styles
+  - Avoid using inline styles. Only using inline style when we need to inject js logic into css properties value.
 
     ```jsx
     // ❌
     const Title = (props) => {
       return (
         <h1 style={{ fontWeight: 600, fontSize: '24px' }} {...props}>
+          {children}
+        </h1>
+      );
+    };
+
+    // ❌
+    const Title2 = (props) => {
+      return (
+        <h1 style={{ fontWeight: props.isBold ? 700 : 400, fontSize: '24px' }} {...props}>
           {children}
         </h1>
       );
