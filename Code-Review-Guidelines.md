@@ -1,6 +1,6 @@
 # CODE REVIEW - Journey Horizon Guideline
 
-This guidelines would have 4 sections, one for the reviewer and one for the one that got reviewed.
+This guidelines would have 5 sections, one for the reviewer and one for the one that got reviewed.
 
 ## Table of Contents
 
