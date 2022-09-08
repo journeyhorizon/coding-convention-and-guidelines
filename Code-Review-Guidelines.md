@@ -90,7 +90,7 @@ Remember that, code review will not help us to have "best code", it help us to h
 
 - You can also skip the Draft state and open a normal PR directly.
 - The review is done by another team member.
-- Remember to resolve conflict before assign reviewer [How to resolve confict in right way](#here)
+- Remember to resolve conflict before assign reviewer [How to resolve confict in right way](#37-resolve-merge-conflict)
 - Remember to assign reviewer
 - Remember to note all neccessary things into PR description: 
   - Environment variables.
