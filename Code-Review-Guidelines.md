@@ -24,7 +24,8 @@ This guidelines would have 4 sections, one for the reviewer and one for the one 
   - [3.7) Resolve merge conflict](#37-resolve-merge-conflict)
   - [3.8) When to ask for a review](#38-when-to-ask-for-a-review)
 4. [Code Review](#4-code-review)
-  - [4.3) Focus on the right things](#41-focus-on-the-right-things)
+  - [4.0) Philosophy](#40-philosophy)
+  - [4.1) Focus on the right things](#41-focus-on-the-right-things)
   - [4.2) Logic Review](#42-logic-review)
     - [Preparation](#preparation)
       - [General](#general)
@@ -209,6 +210,16 @@ At the moment of this writing, each team is having a rules of it owns, we would 
 
 Review is communication process, there are plenty of things you can do for a review, this should only be a basic list of what you can do, not an exhaust list so you can always add more of your flavour to the review.
 
+## 4.0) Philosophy
+
+**Code Review is about the code not about the coder.**
+
+- Basically, the code review focuses only on code written.
+- It's not the time to blame the author but to verify that the code meets the defined standards, best practices...
+- It means that no one escapes the code review: new hire, a senior, the lead developer or even practice lead.
+- What must be understood is that there is no written well enough to not be seen code.
+- This is also the time to share development techniques, tips ... and why not initiate discussions or debate on a particular way of coding.
+
 ## 4.1) Focus on the right things
 
 Remember that, code review will not help us to have "best code", it help us to have "better code", so don't try to spend a lot of time to optimize to have a perfect code.
@@ -357,7 +368,105 @@ In conclusion, always based your priorities based on the actual workload, if in 
 
 ## 4.3) UI/UX Review
 
-Beside logic, UI/UX is an important thing for a project, but most of developers forget or feel too hard and take times to do it a review for HTML/CSS and Layout stuff. Therefore here is some note for you to ensure a better UI/UX code in a faster and easy way.
+Beside logic, UI/UX is an important thing for a project, but most of developers forget or feel too hard and take times to do a review for HTML/CSS and Layout stuff. Therefore here is some note for you to ensure a better UI/UX code.
+
+The goal is not to define a formal definition of practices for code review but to give some checklist for reviewers.
+
+Of course, it helps a developer to know how the reviewer does his code review. You can so focus on writing a better and simpler code.
+
+### General
+
+1. Does the code work? (Optional)
+  - If you have time to run the code, quick check it.
+3. Code is easily understand.
+  - If you can easy to understand the flow, understand functions and variables (Know what they do).
+4. Code is written following the coding standards/guidelines.
+5. Code is in sync with existing code patterns/technologies.
+6. Don Repeat Yourself (DRY). Is the same code duplicated more than twice?
+  - If yes, separate it into single function, hook, util,...
+7. Are functions/classes/components reasonably small (not too big)?
+  - Component under 500 code lines is not too big.
+  - Function under 200 code lines is not too big
+8. Naming conventions followed for variables, file names, translations.
+9. Removed unused packages from NPM/YARN.
+
+### Codestyle
+
+1. No hardcoded values, use constants values.
+2. Avoid multiple if/else blocks.
+3. No commented out code.
+4. No unnecessary comments: comments that describe the how.
+5. Add necessary comments where needed. Necessary comments are comments that describe the why.
+
+### ES6/7
+
+1. Use ES6 features.
+2. Use fat arrow instead of var that = this. Be consistent in your usage of arrow function.
+3. Use spread/rest operator.
+4. Use default values.
+5. Use const over let (avoid var).
+6. Use import and export.
+7. Use template literals.
+8. Use destructuring assignment for arrays and objects.
+9. Use Promises or Asyns/Await. Rejection is handled.
+
+### React code review
+
+1. Are components have defined propTypes/Type/Interface?
+2. Keep components small.
+4. No api calls in containers, delegate to Thunk, Custom hooks
+5. No state updates in loop.
+6. No useless constructor.
+7. Minimize logic in the render method.
+8. Use HOC, composition, custom hooks for re-use logic and render.
+
+### Third-Party Libraries
+
+1. Use lodash functions instead of implementing itself.
+2. Is any nice/useful library was used wich we didn't know before?
+  - Ask the PR author about that to know why use it, how it work, is it necessary, is it compatible with system?
+
+### ESLint
+
+1. Code has no any linter errors or warnings. (Optional)
+2. No console.logs.
+
+### HTML
+
+1. Does the tags, attributes are used in various browsers? (From desktop to mobile)
+2. Does the code follow sematic and can read by reader machine?
+3. Does it break any basic SEO rules?
+4. Does layout nested unneccessary?
+
+### CSS/CSS in JS
+
+1. Does the css features are used in various browsers? (From desktop to mobile)
+2. Consistent naming conventions.
+3. CSS selectors are only as specific as they need to be; grouped logically.
+4. Is any 'CSS in JS' library was used?
+5. Use Hex color codes #000 unless using rgba().
+6. Avoid absolute positioning.
+7. Use flexbox/grid?
+8. Avoid !important.
+9. Do not animate width, height, top, left and others. Use transform instead.
+10. Use same units for all project.
+11. Avoid inline styles.
+12. Is there any duplicated styles which we can defined a re-use class?
+
+### Others
+
+1. Security.
+2. Usability.
+
+## 4.3) Test review (For projects which have automation testing process)
+
+- Tests are readable, maintainable, trustworthy.
+- Test names (describe, it) are concise, explicit, descriptive.
+- Avoid logic in your tests.
+- Don't test multiple concerns in the same test.
+- Cover the general case and the edge cases.
+- Test the behaviour, not the internal implementation.
+- Use a mock to simulate/stub complex class structure, methods or async functions.
 
 ## 4.4) Notice for Reviewer
 
