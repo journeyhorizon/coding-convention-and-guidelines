@@ -40,4 +40,29 @@ Here below is step by step how to make your website into a mobile native applica
 - Remember that **Private Management Link** is private link, do not share not public in any where, with this link anyone can get app source code and modify app configs.
 
 
+## 2) Configure & Customize
+
+Add your own app icon and branding, then configure push notifications and other features to optimize your app.
+
+### 
+
+## 3) Publish & Launch
+
+Publish your app on the Apple App Store and/or the Google Play Store so users can find and download your app.
+
+###
+
+# Native plugin library
+
+##
+
+# GoNative APIs - Easily add powerful native features without writing native code
+
+##
+
+# Why GoNative?
+
+##
+
+# Resources
 
