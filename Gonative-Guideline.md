@@ -14,6 +14,16 @@ Here below is step by step how to make your website into a mobile native applica
 
 ## 1) Build & Preview
 
-- Enter a URL, App name, and your contact email then within minutes the GoNative online app builder will create a native app that displays your web content.
+- Click "Create A New App" on topbar menu or access this url "https://gonative.io/app"
+![Select create app buttom](https://drive.google.com/uc?export=view&id=1l_Ts-hBMnaZ0OzIqDjpf13rDl6eL78Yj)
 
-![Hinh here](https://uploads-ssl.webflow.com/6086d38446e7b006d4735160/61d638b148b589329cdd6b02_whole-foods.svg)
+- Then you will see this page
+
+![Create new app page](https://drive.google.com/uc?export=view&id=1dPwkoEvCGDVk6WOphIHMVaG20iG1VoIs)
+
+- Enter a URL, App name, and your contact email 
+
+![Enter url](https://drive.google.com/uc?export=view&id=1Lxpz2p4rul4ihCLDEAmEDYspoKvJjpkh)
+
+- Next, click "Start building my app" button (Green one) then within minutes the GoNative online app builder will create a native app that displays your web content.
+
