@@ -27,6 +27,8 @@ Here below is step by step how to make your website into a mobile native applica
 
 - Next, click "Start building my app" button (Green one) then within minutes the GoNative online app builder will create a native app that displays your web content.
 
+![Video build app](https://drive.google.com/uc?export=view&id=1JaUF6q0KPL_YJzcOLQ1UHoApLwhci7hl)
+
 - Now you are in app dashboard where you can update config, add app icon, splash screen for android, add navigation bar, grant permission, add more plugin.
 
 - You can see on the left sidebar of dashboard is control list, where you can do action
