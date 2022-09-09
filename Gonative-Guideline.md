@@ -15,15 +15,29 @@ Here below is step by step how to make your website into a mobile native applica
 ## 1) Build & Preview
 
 - Click "Create A New App" on topbar menu or access this url "https://gonative.io/app"
-![Select create app buttom](https://drive.google.com/uc?export=view&id=1l_Ts-hBMnaZ0OzIqDjpf13rDl6eL78Yj)
+<img src="https://drive.google.com/uc?export=view&id=1l_Ts-hBMnaZ0OzIqDjpf13rDl6eL78Yj" alt="Select create app buttom" data-canonical-src="https://drive.google.com/uc?export=view&id=1l_Ts-hBMnaZ0OzIqDjpf13rDl6eL78Yj" width="100%"/>
 
 - Then you will see this page
 
-![Create new app page](https://drive.google.com/uc?export=view&id=1dPwkoEvCGDVk6WOphIHMVaG20iG1VoIs)
+<img src="https://drive.google.com/uc?export=view&id=1dPwkoEvCGDVk6WOphIHMVaG20iG1VoIs" alt="Create new app page" data-canonical-src="https://drive.google.com/uc?export=view&id=1dPwkoEvCGDVk6WOphIHMVaG20iG1VoIs" width="100%"/>
 
 - Enter a URL, App name, and your contact email 
 
 ![Enter url](https://drive.google.com/uc?export=view&id=1Lxpz2p4rul4ihCLDEAmEDYspoKvJjpkh)
 
 - Next, click "Start building my app" button (Green one) then within minutes the GoNative online app builder will create a native app that displays your web content.
+
+- Now you are in app dashboard where you can update config, add app icon, splash screen for android, add navigation bar, grant permission, add more plugin.
+
+- You can see on the left sidebar of dashboard is control list, where you can do action
+
+![Left sidebar](https://drive.google.com/uc?export=view&id=1IMa0cpjUHSr7F_eI2QYYvBbl6K-AKkaG)
+
+- Beside that you will also receive an email from GoNative about some details info: Link to Dashboard, Link to share demo app, licensing, documentation and your appConfig.json file.
+
+![Email content](https://drive.google.com/uc?export=view&id=17fFWMp6zY0bgpvNQtfOgdUTbkmNNbKZx)
+
+- Remember that **Private Management Link** is private link, do not share not public in any where, with this link anyone can get app source code and modify app configs.
+
+
 
