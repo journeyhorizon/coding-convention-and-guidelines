@@ -68,3 +68,4 @@ Publish your app on the Apple App Store and/or the Google Play Store so users ca
 
 # Resources
 
+# FAQ
