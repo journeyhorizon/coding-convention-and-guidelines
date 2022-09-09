@@ -2,6 +2,45 @@
 
 Hello JHers, we know that, to develop a project with both web and mobile platform may cost our clients double budget and we need two teams (Mobile and Web) to manage a project at a same time (It may lead to complex process with small project and we have to spend a lot of time to sync between teams). That the reason why GoNative appear and resolve some of our problems.
 
+- [HOW TO GONATIVE - JOURNEY HORIZON GUIDELINE](#how-to-gonative---journey-horizon-guideline)
+- [What is GoNative?](#what-is-gonative)
+- [How to convert your website into a native app with GoNative](#how-to-convert-your-website-into-a-native-app-with-gonative)
+  - [1) Build & Preview](#1-build--preview)
+  - [2) Configure & Customize](#2-configure--customize)
+    - [Overview](#overview)
+    - [Branding](#branding)
+    - [Navigation](#navigation)
+    - [Link handling](#link-handling)
+    - [Interface](#interface)
+    - [Website overrides](#website-overrides)
+    - [Permission](#permission)
+    - [Push notification](#push-notification)
+    - [Native plugins](#native-plugins)
+    - [Build and test](#build-and-test)
+    - [License](#license)
+  - [3) Publish & Launch](#3-publish--launch)
+    - [Buy a license](#buy-a-license)
+    - [Apple Developer Account](#apple-developer-account)
+- [GoNative APIs - Easily add powerful native features without writing native code](#gonative-apis---easily-add-powerful-native-features-without-writing-native-code)
+    - [Device Info: https://gonative.io/docs/device-info](#device-info-httpsgonativeiodocsdevice-info)
+    - [Clipboard: https://gonative.io/docs/clipboard](#clipboard-httpsgonativeiodocsclipboard)
+    - [Prompt Share Dialogue: https://gonative.io/docs/prompt-share-dialogue](#prompt-share-dialogue-httpsgonativeiodocsprompt-share-dialogue)
+    - [Download File: https://gonative.io/docs/download-file](#download-file-httpsgonativeiodocsdownload-file)
+    - [App Settings: https://gonative.io/docs/app-settings](#app-settings-httpsgonativeiodocsapp-settings)
+    - [Clear Webview Cache: https://gonative.io/docs/clear-webview-cache](#clear-webview-cache-httpsgonativeiodocsclear-webview-cache)
+- [Why GoNative?](#why-gonative)
+  - [Build in minutes](#build-in-minutes)
+  - [Get source code](#get-source-code)
+  - [Many plugins](#many-plugins)
+- [Resources](#resources)
+- [FAQ](#faq)
+    - [How can I use camera to capture image or get images from Gallery](#how-can-i-use-camera-to-capture-image-or-get-images-from-gallery)
+    - [How can I use QRCode in web?](#how-can-i-use-qrcode-in-web)
+
+
+----------------------------------------
+
+
 # What is GoNative?
 
 - GoNative is a tool (run on web) which convert a website into a native app by using webView technique.
@@ -151,6 +190,10 @@ Before build and deploy to appstore/chplay remember to buy a license and add it 
 - After join organize, please create App for client. If they want to have test env for app, create 2 app - one for test one for prod. 
 - Before publish app, full fill all data in App Store Dashboard.
 
+
+----------------------------------------
+
+
 # GoNative APIs - Easily add powerful native features without writing native code
 
 The GoNative JavaScript Bridge is an API embedded in your app that allows your website to dynamically control and configure your app, and access the mobile device native functionality and hardware.
@@ -171,6 +214,10 @@ Follow this document https://gonative.io/docs/gonative-javascript-bridge when yo
 
 ### Clear Webview Cache: https://gonative.io/docs/clear-webview-cache
 
+
+----------------------------------------
+
+
 # Why GoNative?
 
 ## Build in minutes
@@ -185,12 +232,20 @@ The source code for your app can be downloaded at any time. GoNative’s iOS and
 
 As you can see there are many plugins for you to select and use
 
+
+----------------------------------------
+
+
 # Resources
 
 - Example app: https://gonative.io/examples
 - Plugins: https://gonative.io/plugins
 - Pricing: https://gonative.io/pricing
 - Document: https://gonative.io/docs
+
+
+----------------------------------------
+
 
 # FAQ
 
@@ -203,5 +258,4 @@ As you can see there are many plugins for you to select and use
 
 - You can use QRCode package for Reactjs (an example: https://www.npmjs.com/package/qrcode.react)
 - Remember to grant camera permission and declare why you use camera in iOS XCode Project.
-
 
