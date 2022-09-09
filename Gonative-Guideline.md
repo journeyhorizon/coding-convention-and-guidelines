@@ -159,17 +159,17 @@ There are two ways to use the JavaScript Bridge. You can use the JavaScript Brid
 
 Follow this document https://gonative.io/docs/gonative-javascript-bridge when you need.
 
-## Device Info
+### Device Info: https://gonative.io/docs/device-info
 
-## Clipboard
+### Clipboard: https://gonative.io/docs/clipboard
 
-## Prompt Share Dialogue
+### Prompt Share Dialogue: https://gonative.io/docs/prompt-share-dialogue
 
-## Download File
+### Download File: https://gonative.io/docs/download-file
 
-## App Settings
+### App Settings: https://gonative.io/docs/app-settings
 
-## Clear Webview Cache
+### Clear Webview Cache: https://gonative.io/docs/clear-webview-cache
 
 # Why GoNative?
 
