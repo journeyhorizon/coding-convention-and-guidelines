@@ -99,8 +99,10 @@ This is new format of email, it can create a dynamic email, you can do a lot of 
 
 ### Customer Support
 
-Got a problem? Professionals on our customer support team will help you out. Connect  them via chat, email, and over the phone. Mon-Fri, 8AM-12AM, UTC+2.
+Got a problem? Professionals on Stripo's customer support team will help you out. Connect them via chat, email, and over the phone. Mon-Fri, 8AM-12AM, UTC+2.
 [Read more](https://support.stripo.email/en)
+
+If we have any problems or question, ask them. They are the team who understand most about Stripo
 
 ### Brand Guidelines
 
@@ -119,12 +121,12 @@ To stay on-brand across emails, use custom fonts. Uploading them will take you u
 
 ### Email Annotations Builder
 
-With our Gmail annotations generator, you provide recipients with the sale start/end dates, product image, and promo code right in the Inbox before they open emails!
+With Stripo's Gmail annotations generator, you provide recipients with the sale start/end dates, product image, and promo code right in the Inbox before they open emails!
 [Read more](https://stripo.email/gmail-promo/)
 
 ### Data Service/Source
 
-Connect AMP emails to our Data Service and Data Source for collecting users’ feedback from email surveys, and using real-time/dynamic content in emails.
+Connect AMP emails to Stripo's Data Service and Data Source for collecting users’ feedback from email surveys, and using real-time/dynamic content in emails.
 [Read more](https://stripo.email/blog/working-with-data-source-in-stripo/)
 
 ### User Roles and Permissions
