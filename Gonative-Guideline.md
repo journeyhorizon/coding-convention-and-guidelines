@@ -1,6 +1,6 @@
 # HOW TO GONATIVE - JOURNEY HORIZON GUIDELINE
 
-Hello JHers, we know that, to develop a project with both web and mobile platform may cost our clients double budget and we need two teams (Mobile and Web) to manage a project at a same time (It may lead to complex process with small project and we have to spend a lot of time to sync between teams). That the reason why GoNative appear and resolve some of our problems.
+Hello JHers, we know that developing a project with web and mobile platforms may cost our clients double the budget. We need two teams (Mobile and Web) to manage a project simultaneously (It may lead to a complex process with a small project, and we have to spend a lot of time syncing between teams). That is the reason why GoNative appears and resolves some of our problems.
 
 - [HOW TO GONATIVE - JOURNEY HORIZON GUIDELINE](#how-to-gonative---journey-horizon-guideline)
 - [What is GoNative?](#what-is-gonative)
