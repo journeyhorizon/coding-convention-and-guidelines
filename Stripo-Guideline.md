@@ -30,5 +30,8 @@ You can login and use it. [How to create email template in our company Stripo ac
 - Access Stripo in this link: https://stripo.email/
 - On the topbar of Stripo Home Page, click "**Sign in ->**" button (On most right of topbar)
 
-<img src="https://drive.google.com/uc?export=view&id=1YnKvs2ostr2nrCxrCmVob3-jQ4Kw2uaK" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1YnKvs2ostr2nrCxrCmVob3-jQ4Kw2uaK" width="100%"/>
+    <img src="https://drive.google.com/uc?export=view&id=1YnKvs2ostr2nrCxrCmVob3-jQ4Kw2uaK" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1YnKvs2ostr2nrCxrCmVob3-jQ4Kw2uaK" width="100%"/>
 
+- You will need to full fill credential to login. If you don't have an account, you can sign up by click **Get started** link
+
+    <img src="https://drive.google.com/uc?export=view&id=1CZ1gnSgF2GoCXIZ1ZFfCPqUCdblKKYjr" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1CZ1gnSgF2GoCXIZ1ZFfCPqUCdblKKYjr" width="100%"/>
