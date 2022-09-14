@@ -141,3 +141,5 @@ Let your teammates work on emails with you. Assign different roles with respecti
 # How to create an email
 
 ## Dig deeper with Stripo's HTML & CSS Code Editor
+
+To create a wonderful email, we first need to know and understand HTML & CSS Code Editor.
