@@ -306,7 +306,7 @@ As you can see there are many plugins for you to select and use
       - Background Location.
 
   - Gonative: 
-    - All things here [2) Configure & Customize](#2-configure--customize).
+    - All things here [2) Configure & Customize](#2-configure--customize) and here [GoNative APIs - Easily add powerful native features without writing native code](#gonative-apis---easily-add-powerful-native-features-without-writing-native-code)
     - AdMob Native Ads: Google's AdMob platform displays native banner and interstitial ads which provide an enhanced user experience and result in increased monetization versus ads displayed through your website. [Read more](https://gonative.io/docs/admob-native-ads)
     - Native Media Player: Play audio natively on iOS and Android with playback controls and track information displayed on the device lock screen. Use for audiobook, podcast, e-learning, radio apps, etc. [Read more](https://gonative.io/docs/native-media-player)
     - Social Login: Provide a seamless native login experience for your users with any combination of Facebook Login, Google Sign-in and Sign in with Apple. The login process is facilitated through the respective native SDKs rather than the webview. If the user is already logged into an account their login completes automatically, avoiding the need to manually enter username and password details. [Read more](https://gonative.io/docs/social-login)
