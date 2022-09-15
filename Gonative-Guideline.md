@@ -36,6 +36,7 @@ Hello JHers, we know that developing a project with web and mobile platforms may
 - [FAQ](#faq)
     - [How can I use camera to capture image or get images from Gallery](#how-can-i-use-camera-to-capture-image-or-get-images-from-gallery)
     - [How can I use QRCode in web?](#how-can-i-use-qrcode-in-web)
+    - [Should we use WebToNative instead of GoNative?](#should-we-use-webtonative-instead-of-gonative)
 
 
 ----------------------------------------
