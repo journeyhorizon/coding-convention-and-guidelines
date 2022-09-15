@@ -259,3 +259,88 @@ As you can see there are many plugins for you to select and use
 - You can use QRCode package for Reactjs (an example: https://www.npmjs.com/package/qrcode.react)
 - Remember to grant camera permission and declare why you use camera in iOS XCode Project.
 
+### Should we use WebToNative instead of GoNative?
+
+- It depends on your demand; if you only need to wrap your website into a web-view to show as an app with some native plugins without modifying complex things and a meager price, you can use WebToNative (Only $80 to have an app). However, customer support is poor and slow.
+- If you need more than the above, you can consider GoNative (much more expensive than WebToNative, $800 to have an app). However, you have many valuable things: A various plugins library, a good UI/UX dashboard with hundreds of configurations in which you can do so much customization, and you own your source code into which you can inject your code into the source. A big plus is customer support.
+- For me, I highly recommend you use GoNative. Everything has its price.
+- Here is the compare table
+
+- Customer support:
+  - GoNative: Good. 
+  - WebToNative: Bad and Slow. Some questions they did not give us answers
+- Features:
+  - WebToNative:
+    - Both:
+      - Mobile Push Notification: Send unlimited push notifications with OneSignal.com.
+      - Earn From Ads: Wherever you are, whatever your app can do, AdMob can help you grow lasting revenue.
+      - Launch Screen Animation: You can add lottie animation, it will be shown when user open the app.
+      - Splash screen: Launch Screen when user open app
+      - Downloads & Uploads: Download and Upload options are enabled for your app.
+      - Media Playback: Your app will be able to record and play videos same as music and audio.
+      - Pull To Refresh: Refresh your pages with just a swipe down gesture. You can also use this layout to indicate page loading.
+      - App Linking & Sharing: Linking to other applications and even link to a web browser.
+      - No Internet Connection UI: The app shows a beautiful No Connection screen when the user is not connected to internet.
+    - Android:
+      - Playstore Publishing Services.
+      - HUAWEI Publishing Services.
+      - Social Login.
+      - Custom Sound for Notification.
+      - Touch ID / Biometric Authentication.
+      - Facebook App Events.
+      - AppsFlyer.
+      - Barcode Scanning.
+      - Bottom Navigational Tab.
+    - iOS:
+      - App Store Publishing Services.
+      - Social Login.
+      - Touch ID / Face ID / Biometric Authentication.
+      - Facebook App Events.
+      - AppsFlyer.
+      - Barcode Scanning.
+      - Bottom Navigational Tab.
+      - Native Contacts.
+      - In-App Purchases (IAP).
+      - In App Review.
+      - Background Location.
+
+  - Gonative: 
+    - All things here [2) Configure & Customize](#2-configure--customize).
+    - AdMob Native Ads: Google's AdMob platform displays native banner and interstitial ads which provide an enhanced user experience and result in increased monetization versus ads displayed through your website. [Read more](https://gonative.io/docs/admob-native-ads)
+    - Native Media Player: Play audio natively on iOS and Android with playback controls and track information displayed on the device lock screen. Use for audiobook, podcast, e-learning, radio apps, etc. [Read more](https://gonative.io/docs/native-media-player)
+    - Social Login: Provide a seamless native login experience for your users with any combination of Facebook Login, Google Sign-in and Sign in with Apple. The login process is facilitated through the respective native SDKs rather than the webview. If the user is already logged into an account their login completes automatically, avoiding the need to manually enter username and password details. [Read more](https://gonative.io/docs/social-login)
+    - Facebook App Events: Collect analytics, measure Facebook Ad performance, and build audiences for Facebook Ad targeting. Supports standard events such as App Install and App Launch as well as custom events. [Read more](https://gonative.io/docs/facebook-app-events)
+    - Native Contacts: Load contacts directly from the device address book to simplify form completion or data collection. Search for contacts via queries or retrieve all contacts in bulk. [Read more](https://gonative.io/docs/native-contacts)
+    - Google Firebase Analytics: Harness the power of the Google Analytics platform and add native event tracking and usage analytics. Supports default app events such as app start and app usage, as well as custom events. [Read more](https://gonative.io/docs/firebase-analytics)
+    - Local Settings: Save app settings and other data directly to the user's device using iOS Apple Keychain and Android SharedPreferences. If the user is logged into the device the data will persist throughout app upgrade and uninstall/reinstall. [Read more](https://gonative.io/docs/local-settings)
+    - Haptics: Trigger haptic vibration effects to provide feedback to end users based on various events and actions within your app. Support for six different haptic effects that have been specifically designed to be comparable across iOS and Android devices. [Read more](https://gonative.io/docs/haptics)
+    - Share into app : Allow your users to share data such as URL links from other apps installed on their device. Your app will appear in the list of available target apps and actions when they invoke the "Share" menu. [Read more](https://gonative.io/docs/share-into-app)
+    - Document Scanner: Easily scan documents via the device camera using image processing to automatically enhance and optimize the scanned image. Streamline document uploads from customers and employees while reducing errors and missing information. [Read more](https://gonative.io/docs/document-scanner)
+    - QR / Barcode Scanner: Scan QR Codes and Barcodes directly into your app via the device camera. Used for in-store retail shopping, warehouse management, data center operations, etc. [Read more](https://gonative.io/docs/qr-barcode-scanner)
+    - Scandit QR / Barcode: Scan QR Codes and Barcodes directly into your app via the device camera. This plugin is similar to our basic version with additional functionality provided by Scandit. An active Scandit license is required. [Read more](https://gonative.io/docs/scandit-qr-barcode)
+    - Background Location: Allow your app to run code in the background while subscribed to device location updates. Use the background process to perform data backup activities or send data/location to a remote server. [Read more](https://gonative.io/docs/background-location)
+    - In-App Purchases: Accept payment within your app seamlessly using Apple and Google's IAP platform to facilitate in-app transactions such as one-time purchase, subscription, or promo code redemption. [Read more](https://gonative.io/docs/iap)
+    - Secure Modal (Apple Pay): Some 3rd party JavaScript libraries such as the Apple Pay JS API require a secure iOS WKWebView window with external scripting blocked. GoNative's Modal Plugin allows the functionality provided by these libraries to work within your app. [Read more](https://gonative.io/docs/secure-modal)
+    - Card.io: Simplify payment form completion using the device camera and machine vision to read any credit card. Hold your card in front of the card to capture cardholder name, card number and expiry date without typing. [Read more](https://gonative.io/docs/card-io)
+    - Face ID/Touch ID Android Biometric: Provide your users with a seamless login experience using Apple's Face ID and Touch ID authentication and Android Fingerprint Authentication on supported devices. [Read more](https://gonative.io/docs/auth)
+    - Calendar: Add events to the user's calendar from ics files and embedded calendar links. Prompt the user to add via a native interface form. Used for client service and shift scheduling apps. (iOS Only) [Read more](https://gonative.io/docs/native-plugins-overview)
+    - App Review: Prompt your users to leave ratings and reviews for your Apple App Store and Google Play Store app listings. Build your app's profile and improve the discoverability of your app listing through positive ratings. [Read more](https://gonative.io/docs/native-plugins-overview)
+    - Offline Downloads: Download document and media files to the user's device for online or offline access. Files are accessible through a built-in file manager UI as well as via the JavaScript Bridge. [Read more](https://gonative.io/docs/offline-download-manager)
+    - Jailbreak/Root Detection: Improve app security and meet compliance requirements by detecting when your app is running on an insecure jailbroken iOS device or a rooted Android device. [Read more](https://gonative.io/docs/jailbreak-root-detection)
+    - NFC Tag Scanner: Scan data from Near Field Communication (NFC) tags as part of in-store shopping experience, warehouse tracking, digital+physical game, or any similar use case. [Read more](https://gonative.io/docs/nfc-tag-scanner)
+    - iBeacon: Add indoor location awareness and mapping capabilities to your app through the use of iBeacons and proximity scanning. [Read more](https://gonative.io/docs/ibeacon)
+    - AppsFlyer: The AppsFlyer Native Plugin provides app installation and event recording functionality. You can record installs, updates, sessions, and in-app events. Recording these events can help you evaluate ROI and user quality. [Read more](https://gonative.io/docs/native-plugins-overview)
+    - Kaltura Media Player: Play live and recorded video natively in your app using the Kaltura Player. Includes support for AirPlay and Chromecast streaming to compatible devices. [Read more](https://gonative.io/docs/kaltura-media-player)
+    - Microsoft Intune: Add Microsoft Intune capabilities to your app to support Mobile Device Management (MDM) and Mobile Application Management (MAM) using the Microsoft Endpoint Manager. [Read more](https://gonative.io/docs/microsoft-intune)
+    - Twilio: Add a native Twilio video chat interface to your app to provide your users a more seamless and integrated experience versus a web-based client. [Read more](https://gonative.io/docs/twilio)
+
+  - As you can see, GoNative have much more feature and more detail than WebToNative in features.
+- Source code:
+  - GoNative allow us to download source code modify it by ourself if we want. And we can deploy to store by ourself
+  - WebToNative did not allow us to export code and modify code. To publish app, we have to use their service.
+- Documentation:
+  - Gonative: Detail and easy to understand
+  - WebToNative: Lake some info.
+- Admin dashboard: 
+  - Gonative: Very details and good UI/UX.
+  - WebToNative: Very simple and not good.
