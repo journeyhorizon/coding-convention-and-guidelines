@@ -138,8 +138,36 @@ Let your teammates work on emails with you. Assign different roles with respecti
 --------------------------
 <br/>
 
-# How to create an email
+# Working with Stripo in Journey Horizon
+
+## Dashboard
+
 
 ## Dig deeper with Stripo's HTML & CSS Code Editor
 
 To create a wonderful email, we first need to know and understand HTML & CSS Code Editor.
+
+- Click "**+ New message**" button in dashboard to create new email content. Then you will be navigated to select Template dialog.
+
+    <img src="https://drive.google.com/uc?export=view&id=14Gi3B_STWeW17cVjycl8l37lXEs7G7KB" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=14Gi3B_STWeW17cVjycl8l37lXEs7G7KB" width="100%"/>
+
+- You can select 1 in 3 tabs: 
+    - Saved templates: Where you store your own templates which you created before for re-use later.
+
+        <img src="https://drive.google.com/uc?export=view&id=18q0NhYTVhEm8oe9lpd8386NJlPnh3JuW" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=18q0NhYTVhEm8oe9lpd8386NJlPnh3JuW" width="100%"/>
+    
+    - Basic templates: Basic structure template, default template, blank templates where you need a simple thing to build a fancy thing.
+
+        <img src="https://drive.google.com/uc?export=view&id=1Z8ekpkBuiYzWGSCDaxNCNzRV1rpumyhV" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1Z8ekpkBuiYzWGSCDaxNCNzRV1rpumyhV" width="100%"/>
+
+    - Prepared templates: A great library which contains many beautiful email templates. You can select whatever you want.
+
+        <img src="https://drive.google.com/uc?export=view&id=16leEgkVU1zghGHIC5mcW7ROXcbMWZVPv" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=16leEgkVU1zghGHIC5mcW7ROXcbMWZVPv" width="100%"/>
+
+- In this guideline I will select Basic Template then Select Emplty Template to start from scratch:
+
+    <img src="https://drive.google.com/uc?export=view&id=1_Edkl-YbX4gGotp0D3Tr9FUZPfpClgKF" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1_Edkl-YbX4gGotp0D3Tr9FUZPfpClgKF" width="100%"/>
+
+- Here is UI of Email Content Editor:
+    
+    <img src="https://drive.google.com/uc?export=view&id=1zNlZmYF-lyWSBf4s3jjn9L8_fpF9Sr9w" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1zNlZmYF-lyWSBf4s3jjn9L8_fpF9Sr9w" width="100%"/>
