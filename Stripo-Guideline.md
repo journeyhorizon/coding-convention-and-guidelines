@@ -171,3 +171,8 @@ To create a wonderful email, we first need to know and understand HTML & CSS Cod
 - Here is UI of Email Content Editor:
     
     <img src="https://drive.google.com/uc?export=view&id=1zNlZmYF-lyWSBf4s3jjn9L8_fpF9Sr9w" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1zNlZmYF-lyWSBf4s3jjn9L8_fpF9Sr9w" width="100%"/>
+
+- Please what this video:
+
+    <video width="100%" height="auto" controls="" src="https://www.w3schools.com/tags/movie.mp4">
+    </video>
