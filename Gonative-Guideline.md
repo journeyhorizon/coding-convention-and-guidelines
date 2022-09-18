@@ -341,7 +341,7 @@ As you can see there are many plugins for you to select and use
   - WebToNative did not allow us to export code and modify code. To publish app, we have to use their service.
 - Documentation:
   - Gonative: Detail and easy to understand
-  - WebToNative: Lake some info.
+  - WebToNative: Lack some info.
 - Admin dashboard: 
   - Gonative: Very details and good UI/UX.
   - WebToNative: Very simple and not good.
