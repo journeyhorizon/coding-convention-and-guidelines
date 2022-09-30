@@ -18,7 +18,7 @@ Hello JHers, as you know, creating an email template with pure HTML/CSS is a nig
 - It has 5 Pricing plans depending on your demand and business size.
 - Here is each plan:
 
-    <img src="https://drive.google.com/uc?export=view&id=1AyF_BEzdwCk3sSsWehxqD9iTZLwn1hdi" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1AyF_BEzdwCk3sSsWehxqD9iTZLwn1hdi" width="100%"/>
+    <img src="https://drive.google.com/uc?export=view&id=1AyF_BEzdwCk3sSsWehxqD9iTZLwn1hdi" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1AyF_BEzdwCk3sSsWehxqD9iTZLwn1hdi" width="75%"/>
 
 <br/>
 
@@ -36,7 +36,7 @@ You can login and use it. [How to create email template in our company Stripo ac
 
 - You will need to full fill credential to login. If you don't have an account, you can sign up by click **Get started** link
 
-    <img src="https://drive.google.com/uc?export=view&id=1CZ1gnSgF2GoCXIZ1ZFfCPqUCdblKKYjr" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1CZ1gnSgF2GoCXIZ1ZFfCPqUCdblKKYjr" width="100%"/>
+    <img src="https://drive.google.com/uc?export=view&id=1CZ1gnSgF2GoCXIZ1ZFfCPqUCdblKKYjr" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1CZ1gnSgF2GoCXIZ1ZFfCPqUCdblKKYjr" width="75%"/>
 
 - To sign up, you enter data into this form, 
 
@@ -50,15 +50,15 @@ You can first test with a free plan (Export to HTML source 4 times a month, send
 
 - After you log in to Stripo, you will see on the topbar menu a button called "**Upgrade**", you can click it to open the upgrade dialog. Or you can click on the avatar thumbnail on most right of the topbar to open a menu, there is another "**Upgrade**" button inside it.
 
-    <img src="https://drive.google.com/uc?export=view&id=1hYCCZqFRn__8ytUDLGEeEUVPg6HvBC1I" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1hYCCZqFRn__8ytUDLGEeEUVPg6HvBC1I" width="100%"/>
+    <img src="https://drive.google.com/uc?export=view&id=1hYCCZqFRn__8ytUDLGEeEUVPg6HvBC1I" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1hYCCZqFRn__8ytUDLGEeEUVPg6HvBC1I" width="50%"/>
 
 - In upgrade dialog, you can select "**Billed Anually**" for better price, but if you only need to test to have a finally decision, you can select "**Billed Monthly**". Then select a plan you want.
 
-    <img src="https://drive.google.com/uc?export=view&id=10WvZf1XfdFhN0-YNqQLYKqjeS-Gtn6v1" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=10WvZf1XfdFhN0-YNqQLYKqjeS-Gtn6v1" width="100%"/>
+    <img src="https://drive.google.com/uc?export=view&id=10WvZf1XfdFhN0-YNqQLYKqjeS-Gtn6v1" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=10WvZf1XfdFhN0-YNqQLYKqjeS-Gtn6v1" width="50%"/>
 
 - Enter payment info into the form and submit (Pay button) and Boom, your account is upgraded.
 
-    <img src="https://drive.google.com/uc?export=view&id=12ueOK5QZK55uAlUVAupm2C9_nOCN0prA" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=12ueOK5QZK55uAlUVAupm2C9_nOCN0prA" width="100%"/>
+    <img src="https://drive.google.com/uc?export=view&id=12ueOK5QZK55uAlUVAupm2C9_nOCN0prA" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=12ueOK5QZK55uAlUVAupm2C9_nOCN0prA" width="50%"/>
 
 ## Stripo features
 
@@ -149,28 +149,28 @@ To create a wonderful email, we first need to know and understand HTML & CSS Cod
 
 - Click "**+ New message**" button in dashboard to create new email content. Then you will be navigated to select Template dialog.
 
-    <img src="https://drive.google.com/uc?export=view&id=14Gi3B_STWeW17cVjycl8l37lXEs7G7KB" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=14Gi3B_STWeW17cVjycl8l37lXEs7G7KB" width="100%"/>
+    <img src="https://drive.google.com/uc?export=view&id=14Gi3B_STWeW17cVjycl8l37lXEs7G7KB" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=14Gi3B_STWeW17cVjycl8l37lXEs7G7KB" width="50%"/>
 
 - You can select 1 in 3 tabs: 
     - Saved templates: Where you store your own templates which you created before for re-use later.
 
-        <img src="https://drive.google.com/uc?export=view&id=18q0NhYTVhEm8oe9lpd8386NJlPnh3JuW" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=18q0NhYTVhEm8oe9lpd8386NJlPnh3JuW" width="100%"/>
+        <img src="https://drive.google.com/uc?export=view&id=18q0NhYTVhEm8oe9lpd8386NJlPnh3JuW" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=18q0NhYTVhEm8oe9lpd8386NJlPnh3JuW" width="50%"/>
     
     - Basic templates: Basic structure template, default template, blank templates where you need a simple thing to build a fancy thing.
 
-        <img src="https://drive.google.com/uc?export=view&id=1Z8ekpkBuiYzWGSCDaxNCNzRV1rpumyhV" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1Z8ekpkBuiYzWGSCDaxNCNzRV1rpumyhV" width="100%"/>
+        <img src="https://drive.google.com/uc?export=view&id=1Z8ekpkBuiYzWGSCDaxNCNzRV1rpumyhV" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1Z8ekpkBuiYzWGSCDaxNCNzRV1rpumyhV" width="50%"/>
 
     - Prepared templates: A great library which contains many beautiful email templates. You can select whatever you want.
 
-        <img src="https://drive.google.com/uc?export=view&id=16leEgkVU1zghGHIC5mcW7ROXcbMWZVPv" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=16leEgkVU1zghGHIC5mcW7ROXcbMWZVPv" width="100%"/>
+        <img src="https://drive.google.com/uc?export=view&id=16leEgkVU1zghGHIC5mcW7ROXcbMWZVPv" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=16leEgkVU1zghGHIC5mcW7ROXcbMWZVPv" width="50%"/>
 
 - In this guideline I will select Basic Template then Select Emplty Template to start from scratch:
 
-    <img src="https://drive.google.com/uc?export=view&id=1_Edkl-YbX4gGotp0D3Tr9FUZPfpClgKF" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1_Edkl-YbX4gGotp0D3Tr9FUZPfpClgKF" width="100%"/>
+    <img src="https://drive.google.com/uc?export=view&id=1_Edkl-YbX4gGotp0D3Tr9FUZPfpClgKF" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1_Edkl-YbX4gGotp0D3Tr9FUZPfpClgKF" width="50%"/>
 
 - Here is UI of Email Content Editor:
     
-    <img src="https://drive.google.com/uc?export=view&id=1zNlZmYF-lyWSBf4s3jjn9L8_fpF9Sr9w" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1zNlZmYF-lyWSBf4s3jjn9L8_fpF9Sr9w" width="100%"/>
+    <img src="https://drive.google.com/uc?export=view&id=1zNlZmYF-lyWSBf4s3jjn9L8_fpF9Sr9w" alt="Stripo Pricing Plans" data-canonical-src="https://drive.google.com/uc?export=view&id=1zNlZmYF-lyWSBf4s3jjn9L8_fpF9Sr9w" width="50%"/>
 
 - Please watch this video:
 
