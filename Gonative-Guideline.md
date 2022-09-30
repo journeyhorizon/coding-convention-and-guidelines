@@ -32,15 +32,18 @@ Hello JHers, we know that developing a project with web and mobile platforms may
   - [Build in minutes](#build-in-minutes)
   - [Get source code](#get-source-code)
   - [Many plugins](#many-plugins)
+- [Development Process With GoNative Mobile App](#development-process-with-gonative-mobile-app)
+  - [Gonative development process](#gonative-development-process)
 - [Resources](#resources)
 - [FAQ](#faq)
     - [How can I use camera to capture image or get images from Gallery](#how-can-i-use-camera-to-capture-image-or-get-images-from-gallery)
     - [How can I use QRCode in web?](#how-can-i-use-qrcode-in-web)
     - [Should we use WebToNative instead of GoNative?](#should-we-use-webtonative-instead-of-gonative)
-
+<br/>
+<br/>
 
 ----------------------------------------
-
+<br/>
 
 # What is GoNative?
 
@@ -190,10 +193,11 @@ Before build and deploy to appstore/chplay remember to buy a license and add it 
 - Invite our Apple dev account into their organize
 - After join organize, please create App for client. If they want to have test env for app, create 2 app - one for test one for prod. 
 - Before publish app, full fill all data in App Store Dashboard.
-
+<br/>
+<br/>
 
 ----------------------------------------
-
+<br/>
 
 # GoNative APIs - Easily add powerful native features without writing native code
 
@@ -214,10 +218,11 @@ Follow this document https://gonative.io/docs/gonative-javascript-bridge when yo
 ### App Settings: https://gonative.io/docs/app-settings
 
 ### Clear Webview Cache: https://gonative.io/docs/clear-webview-cache
-
+<br/>
+<br/>
 
 ----------------------------------------
-
+<br/>
 
 # Why GoNative?
 
@@ -232,10 +237,45 @@ The source code for your app can be downloaded at any time. GoNative’s iOS and
 ## Many plugins
 
 As you can see there are many plugins for you to select and use
-
+<br/>
+<br/>
 
 ----------------------------------------
+<br/>
 
+# Development Process With GoNative Mobile App
+
+- As you know, our current process when develop a web/mobile app is separating two Environments (Test env and Production env) which related to two Apps (Test app and Production app). It helps us a lot and reduce many complexity problems when setup, implement features and integrete third parties. 
+
+- With Mobile development process, we have two bundle_app_id related to two apps. Example: com.app.helloWorld.test for Test app, com.app.helloWorld for Production app. One bundle_app_id can only stick with one app.
+
+- However with GoNative, there faced a big problem: One GoNative License can only use for only one bundle_app_id, so our current process got stuck.
+Someone will tell me why don't you add license for Production app and leave Test app as a free version. Hmmm, I tried it mate, and here is the frustrated thing:
+
+<center><img src="https://drive.google.com/uc?export=view&id=1jQwxOATA9eiSt5iy_Pr_810aczgQZIjt" alt="Error with free version" data-canonical-src="https://drive.google.com/uc?export=view&id=1jQwxOATA9eiSt5iy_Pr_810aczgQZIjt" width="40%"/></center>
+
+- Here is two main reasons why I don't use this method approach:
+  - It will show Alert popup (Like above) many times to warn you when using test app.
+  - With the free version, after a while of using the app, your app will close automatically.
+- All these experiences leave our customers unsatisfied.
+
+After many restless nights, I found a new process that can show us the light.
+
+## GoNative development process
+
+- We only need to create 1 app with 1 bundle_app_id
+- For test app: You can checkout code to master, merge feature branch to master (If we change in native code or add new purchased plugin), then change url in appConfig.json => general.initialUrl to test site url, rebuild app and push to TestFlight/FirebaseAppTest.
+
+<center><img src="https://drive.google.com/uc?export=view&id=1QTZ9u2_0-KwRNxZd9qLq6vRkSScvyOwb" alt="Error with free version" data-canonical-src="https://drive.google.com/uc?export=view&id=1QTZ9u2_0-KwRNxZd9qLq6vRkSScvyOwb" width="45%"/><img src="https://drive.google.com/uc?export=view&id=175Rrz8_qOVJPxrAuMgTwxbR-GxEVEtmO" alt="Error with free version" data-canonical-src="https://drive.google.com/uc?export=view&id=175Rrz8_qOVJPxrAuMgTwxbR-GxEVEtmO" width="45%"/></center>
+
+- If everythings look good, you can checkout to production, merge feature branch to production (If we change in native code or add new purchased plugin) then change url in appConfig.json => general.initialUrl to production site url, rebuild app and push to TestFlight/FirebaseAppTest and then submit to AppStore/CHPlay.
+
+- How can I use Test App when my latest app version is using production url? For example: My latest app version is 30 and it is production url version. You can find nearest previous version which is using test url to download and use. Or you can deploy a brand new version using test url.
+<br/>
+<br/>
+
+----------------------------------------
+<br/>
 
 # Resources
 
@@ -243,10 +283,11 @@ As you can see there are many plugins for you to select and use
 - Plugins: https://gonative.io/plugins
 - Pricing: https://gonative.io/pricing
 - Document: https://gonative.io/docs
-
+<br/>
+<br/>
 
 ----------------------------------------
-
+<br/>
 
 # FAQ
 
