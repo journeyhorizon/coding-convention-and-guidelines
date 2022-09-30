@@ -262,6 +262,22 @@ Let your teammates work on emails with you. Assign different roles with respecti
 
 ## Dig deeper with Stripo's HTML & CSS Code Editor
 
+Here is video playlist of Stripo:
+
+[Playlist: Introduction to Stripo: What it is, and how to use it](https://www.youtube.com/watch?v=L1ILbMjdFFU&list=PLgXmUKpFR5RgMlIiEPA_UgU_ho-rem35R)
+
+[Playlist: Сreate Emails Fast](https://www.youtube.com/watch?v=AZ7W6tgBVIg&list=PLgXmUKpFR5Rj8UZNdeWc-uglItUG8CAP1)
+
+[Playlist: How-to Videos](https://www.youtube.com/watch?v=8gqqANVWdjU&list=PLgXmUKpFR5RifIVgiXCJLngMK3jQT2oQD)
+
+[Playlist: Export Options, or How to Push Emails to your ESP](https://www.youtube.com/watch?v=pkk_Gja902k&list=PLgXmUKpFR5RgrnNWLythPlTSelxV2HosE)
+
+[Playlist: EMAIL TIPS & TRICKS](https://www.youtube.com/watch?v=SEY2zX1QVxA&list=PLgXmUKpFR5RhnFEhmuNqR5UqceHlBC2tZ)
+
+[Playlist: AMP4EMAIL](https://www.youtube.com/watch?v=mdFQewNmxe8&list=PLgXmUKpFR5RiBLExvuYXWoAWy5dUDIfM8)
+
+**You can watch videos or read all the long text below**
+
 We are going to deepen in details to show how to create your first email with the Stripo email template builder.
 
 There are three ways to build your first email template with Stripo:
