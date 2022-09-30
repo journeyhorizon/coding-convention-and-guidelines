@@ -27,6 +27,7 @@ Hello JHers, as you know, creating an email template with pure HTML/CSS is a nig
 - [Working with Stripo in Journey Horizon](#working-with-stripo-in-journey-horizon)
   - [Dashboard](#dashboard)
   - [Dig deeper with Stripo's HTML & CSS Code Editor](#dig-deeper-with-stripos-html--css-code-editor)
+    - [0\. Here is video playlist how to use Stripo](#0-here-is-video-playlist-how-to-use-stripo)
     - [1\. Editing one of the 550 prepared email templates](#1-editing-one-of-the-550-prepared-email-templates)
     - [2\. Coding your own one](#2-coding-your-own-one)
     - [3\. Starting one from scratch/Empty email](#3-starting-one-from-scratchempty-email)
@@ -262,7 +263,7 @@ Let your teammates work on emails with you. Assign different roles with respecti
 
 ## Dig deeper with Stripo's HTML & CSS Code Editor
 
-Here is video playlist of Stripo:
+### 0\. Here is video playlist how to use Stripo:
 
 [Playlist: Introduction to Stripo: What it is, and how to use it](https://www.youtube.com/watch?v=L1ILbMjdFFU&list=PLgXmUKpFR5RgMlIiEPA_UgU_ho-rem35R)
 
