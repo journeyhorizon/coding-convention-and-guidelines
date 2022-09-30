@@ -3,6 +3,122 @@
 Hello JHers, as you know, creating an email template with pure HTML/CSS is a nightmare because we have to fix many bugs on Apple Mail, Outlook Mail, and some old Email clients. Especially when we work with transactional email, it takes a lot of time to implement, push settings, create a transaction and wait for the email to be sent to test. That is the reason why Stripo appears and resolves some of our problems.
 
 
+**Table of content**:
+
+- [How To Stripo - Journey Horizon Guideline](#how-to-stripo---journey-horizon-guideline)
+- [What is Stripo](#what-is-stripo)
+  - [Introduction](#introduction)
+  - [Pricing](#pricing)
+  - [How to access Stripo](#how-to-access-stripo)
+  - [Upgrade Stripo account](#upgrade-stripo-account)
+  - [Stripo features](#stripo-features)
+    - [Modules Library](#modules-library)
+    - [HTML & CSS Code Editor](#html--css-code-editor)
+    - [Email Templates](#email-templates)
+    - [Export Options](#export-options)
+    - [AMP for Email](#amp-for-email)
+    - [Customer Support](#customer-support)
+    - [Brand Guidelines](#brand-guidelines)
+    - [Stripo Translation](#stripo-translation)
+    - [Custom Fonts](#custom-fonts)
+    - [Email Annotations Builder](#email-annotations-builder)
+    - [Data Service/Source](#data-servicesource)
+    - [User Roles and Permissions](#user-roles-and-permissions)
+- [Working with Stripo in Journey Horizon](#working-with-stripo-in-journey-horizon)
+  - [Dashboard](#dashboard)
+  - [Dig deeper with Stripo's HTML & CSS Code Editor](#dig-deeper-with-stripos-html--css-code-editor)
+    - [1\. Editing one of the 550 prepared email templates](#1-editing-one-of-the-550-prepared-email-templates)
+    - [2\. Coding your own one](#2-coding-your-own-one)
+    - [3\. Starting one from scratch/Empty email](#3-starting-one-from-scratchempty-email)
+    - [4\. General settings](#4-general-settings)
+      - [Important to note:!Stripo How to Build Email with Stripo Email Background](#important-to-note)
+      - [How to make general settings with Stripo:](#how-to-make-general-settings-with-stripo)
+    - [5\. Setting headings](#5-setting-headings)
+    - [How to set styles for Headings in emails with Stripo:](#how-to-set-styles-for-headings-in-emails-with-stripo)
+    - [6\. Building header](#6-building-header)
+      - [How to add logo to your emails with Stripo:](#how-to-add-logo-to-your-emails-with-stripo)
+      - [Important to note:](#important-to-note-1)
+      - [How to add a menu to your emails with Stripo:](#how-to-add-a-menu-to-your-emails-with-stripo)
+      - [Important to note:](#important-to-note-2)
+    - [7\. Working with text](#7-working-with-text)
+      - [Important to mention:](#important-to-mention)
+      - [How to add copy to your emails with Stripo:](#how-to-add-copy-to-your-emails-with-stripo)
+      - [How to add links to text with Stripo:](#how-to-add-links-to-text-with-stripo)
+      - [Important to note:](#important-to-note-3)
+    - [8\. Personalizing copy](#8-personalizing-copy)
+      - [How to add merge-tags in emails with Stripo:](#how-to-add-merge-tags-in-emails-with-stripo)
+      - [Important to note:](#important-to-note-4)
+    - [9\. Adding images](#9-adding-images)
+      - [How to add an image in emails with Stripo:](#how-to-add-an-image-in-emails-with-stripo)
+      - [Note:](#note)
+      - [There are four ways of doing it:](#there-are-four-ways-of-doing-it)
+        - [1\. Dropping/uploading image](#1-droppinguploading-image)
+        - [2\. Pasting external URL](#2-pasting-external-url)
+        - [3\. Using images from the personal gallery](#3-using-images-from-the-personal-gallery)
+        - [4\. Using our bank of images](#4-using-our-bank-of-images)
+    - [10\. Editing images](#10-editing-images)
+      - [How to edit images with Stripo:](#how-to-edit-images-with-stripo)
+    - [11\. Building banner](#11-building-banner)
+      - [Important to mention:](#important-to-mention-1)
+      - [How to build email banner with Stripo:](#how-to-build-email-banner-with-stripo)
+      - [Please, be advised:](#please-be-advised)
+      - [Important to note:](#important-to-note-5)
+    - [12\. Image rollover effect](#12-image-rollover-effect)
+      - [Important to note:](#important-to-note-6)
+      - [How to build an image rollover effect with Stripo:](#how-to-build-an-image-rollover-effect-with-stripo)
+    - [13\. Adding video in emails](#13-adding-video-in-emails)
+      - [Way 1. Inserting URL link to your video](#way-1-inserting-url-link-to-your-video)
+        - [How to set a custom thumbnail to video in emails:](#how-to-set-a-custom-thumbnail-to-video-in-emails)
+        - [Important to note:](#important-to-note-7)
+      - [Way 2. Embedding video](#way-2-embedding-video)
+        - [We recommend sticking to the following order:](#we-recommend-sticking-to-the-following-order)
+        - [How to embed this code in emails with Stripo:](#how-to-embed-this-code-in-emails-with-stripo)
+      - [The very code to embed:](#the-very-code-to-embed)
+      - [Customize the embed code:](#customize-the-embed-code)
+    - [14.Adding CTA buttons](#14adding-cta-buttons)
+      - [How to build a CTA button with Stripo.email:](#how-to-build-a-cta-button-with-stripoemail)
+      - [Important to note:](#important-to-note-8)
+    - [15\. Building products content modules](#15-building-products-content-modules)
+        - [If you want to build one or two more modules similar to this one, you need to:](#if-you-want-to-build-one-or-two-more-modules-similar-to-this-one-you-need-to)
+    - [16\. Building countdown timers for emails](#16-building-countdown-timers-for-emails)
+      - [How to build and add countdown timer in emails with Stripo:](#how-to-build-and-add-countdown-timer-in-emails-with-stripo)
+    - [17\. Adding spacer](#17-adding-spacer)
+      - [How to set spacer in emails with Stripo:](#how-to-set-spacer-in-emails-with-stripo)
+    - [18\. Inserting social networking](#18-inserting-social-networking)
+      - [How to add social media icons with Stripo:](#how-to-add-social-media-icons-with-stripo)
+      - [Important to note:](#important-to-note-9)
+    - [19\. Building email footer](#19-building-email-footer)
+      - [How to build email footer with Stripo:](#how-to-build-email-footer-with-stripo)
+    - [20\. Background color and image](#20-background-color-and-image)
+      - [Setting background color to a structure](#setting-background-color-to-a-structure)
+      - [How to set a background color for a structure:](#how-to-set-a-background-color-for-a-structure)
+      - [How to set a background image for entire email:](#how-to-set-a-background-image-for-entire-email)
+      - [Important to note:](#important-to-note-10)
+    - [21\. Writing subject line](#21-writing-subject-line)
+      - [How to write a subject line for your emails with Stripo:](#how-to-write-a-subject-line-for-your-emails-with-stripo)
+    - [22\. Settings for email rendering on mobile devices](#22-settings-for-email-rendering-on-mobile-devices)
+      - [How to set preferences for mobile view:](#how-to-set-preferences-for-mobile-view)
+    - [23\. Building AMP emails](#23-building-amp-emails)
+      - [Important:](#important)
+    - [24\. Optional email elements](#24-optional-email-elements)
+      - [Interactive elements in emails](#interactive-elements-in-emails)
+      - [Important to mention:](#important-to-mention-2)
+      - [Gmail Promotion Annotations Builder](#gmail-promotion-annotations-builder)
+      - [AMP-powered emails](#amp-powered-emails)
+    - [25\. Previewing and testing your emails](#25-previewing-and-testing-your-emails)
+      - [How to preview your email with Stripo:](#how-to-preview-your-email-with-stripo)
+      - [How to send test email with Stripo:](#how-to-send-test-email-with-stripo)
+      - [How to preview your emails across all popular environments](#how-to-preview-your-emails-across-all-popular-environments)
+    - [26\. Exporting email to your ESP](#26-exporting-email-to-your-esp)
+      - [How to export your email from Stripo:](#how-to-export-your-email-from-stripo)
+      - [Important:](#important-1)
+      - [Undo button](#undo-button)
+      - [Versioning](#versioning)
+      - [Copying and moving elements](#copying-and-moving-elements)
+      - [Storing modules](#storing-modules)
+      - [Storing and reusing existing templates](#storing-and-reusing-existing-templates)
+
+
 --------------------------
 <br/>
 
@@ -150,11 +266,11 @@ We are going to deepen in details to show how to create your first email with th
 
 There are three ways to build your first email template with Stripo:
 
-1.  Editing one of the 5500 prepared email templates.
-    
-2.  Coding your own one.
-    
-3.  Starting one from scratch.
+    1.  Editing one of the 5500 prepared email templates.
+        
+    2.  Coding your own one.
+        
+    3.  Starting one from scratch.
     
 
 To use any of the aforementioned options, in the “Emails” tab, you need to hit the “New template” button.
@@ -191,7 +307,7 @@ I decided to create a new email by using this way.
 
 First of all, this way you stick to the unified design style across all elements in email. You set font colors for the copy in email, you set forms and fonts for buttons, the colors for the links, paddings in containers, line spacing, email background color and content background color, email width.
 
-### Important to note:![Stripo How to Build Email with Stripo Email Background](https://stripo-cdn.stripo.email/photos/shares/Blog/Stripo-How-to-Build-Email-with-Stripo-Email-Background.png "Stripo How to Build Email with Stripo Email Background")
+#### Important to note:![Stripo How to Build Email with Stripo Email Background](https://stripo-cdn.stripo.email/photos/shares/Blog/Stripo-How-to-Build-Email-with-Stripo-Email-Background.png "Stripo How to Build Email with Stripo Email Background")
 
 Email content background stands for the background applied to the entire email area. When opened on desktop devices, it covers all email message areas, while on mobile devices it gets hidden (the red background in the example above).
 
@@ -203,7 +319,7 @@ By making these settings, you significantly reduce the time that you’d spend o
 
 If any style, that you apply to a separate row/container/block, differs from the styles set in the General settings sections, it will prevail over the general style.
 
-### How to make general settings with Stripo:
+#### How to make general settings with Stripo:
 
 *   in the settings panel, click the “Appearance” tab;
     
@@ -218,7 +334,6 @@ If any style, that you apply to a separate row/container/block, differs from the
 We strongly recommend choosing fonts, colors, buttons, paddings prior to starting working on the email. Yet, email and content background colors should be set after the email is ready. This way, you see if they really fit in well.
 
 ### 5\. Setting headings
---------------------
 
 The general styles cover only the “normal” text in your emails. Hence, you should separately set the font, its size, and style for headings that would be used across emails.
 
@@ -241,7 +356,6 @@ If you like, use bold or italic type, or even set a different font to make headi
     
 
 ### 6\. Building header
--------------------
 
 [Email header](https://stripo.email/blog/email-header-best-practices/) — is the first element of emails that recipients see. It normally contains the brand logo and menu.
 
@@ -336,7 +450,6 @@ Your browser does not support HTML5 video tag.
 > Please, [find more details here](https://stripo.email/blog/add-menu-email-stripo/).
 
 ### 7\. Working with text
----------------------
 
 Normally, there goes a banner after the navigation menu bar.
 
@@ -410,7 +523,6 @@ This is a screenshot of a reset password link that is not hidden in a button. If
 Today, there’s nothing worse than a non-responsive email.
 
 ### 8\. Personalizing copy
-----------------------
 
 Emails with personalized copy — addressing by names —  bring in 14% more profit than those without personalization.
 
@@ -445,7 +557,6 @@ Your ESP will replace this parameter with the first name of each recipient. If t
 If you need to add merge-tags to email subject line, make necessary settings in your ESP, or just copy your 
 
 ### 9\. Adding images
------------------
 
 Imagery is the basis of all emails. No matter how compelling your copy is, there definitely should be images as they appeal to emotions by showing our products in their best.
 
@@ -512,7 +623,6 @@ If you like what you see, then click the “use” button.
 ![How to Build HTML Email Template with Stripo_Addimg Images from the Bank](https://stripo-cdn.stripo.email/photos/shares/Blog/How-to-Build-HTML-Email-Template-with-Stripo_Addimg-Images-from-the-Bank.png "How to Build HTML Email Template with Stripo_Addimg Images from the Bank")
 
 ### 10\. Editing images
-------------------
 
 In the previous paragraph, we showed how to upload images and store them.
 
@@ -539,7 +649,6 @@ How to work with images to build a banner, we’ll show in the next section.
     
 
 ### 11\. Building banner
--------------------
 
 It is said that [banner](https://stripo.email/blog/create-banner-stripo-email-template-builder-within-minutes/) is the face of your newsletters. Hence, you need to work thoroughly on it.
 
@@ -610,7 +719,6 @@ Currently, Stripo offers over 40 banner fonts. They are decorative. Yet, you sho
 > If you are interested in more ideas for banners and wanna know how to build them with Stripo easily, please, read [this article on a dedicated topic](https://stripo.email/blog/create-banner-stripo-email-template-builder-within-minutes/).
 
 ### 12\. Image rollover effect
--------------------------
 
 [Image rollover effect](https://stripo.email/blog/12-bullet-proof-ideas-include-image-rollover-effect-emails/) helps you entertain and engage customers. Moreover, it saves you precious space in emails, as you can hide product details behind its photo. You can also play games with recipients by making them “search” for the coupon, etc. There are many reasons why you need to add image rollover effect to your emails.
 
@@ -644,7 +752,6 @@ Your browser does not support HTML5 video tag.
 Please, find best practices and inspiring ideas [here](https://stripo.email/blog/12-bullet-proof-ideas-include-image-rollover-effect-emails/).
 
 ### 13\. Adding video in emails
----------------------------
 
 According to numerous studies, potential customers are [65% more likely to buy](https://stripo.email/blog/email-marketing-metrics-kpis-increase-using-email-editor/) from us after watching a video. Moreover, videos are one of the hottest trends for 2019.
 
@@ -804,7 +911,6 @@ These settings will be applied to all the buttons in your template. If you want 
 Hover effect works in most email clients on desktop devices. It does not distort your email appearance on mobile devices and in email clients that do not support hoverable buttons.
 
 ### 15\. Building products content modules
---------------------------------------
 
 Well, this module is a complex one, as it contains a number of blocks and elements.
 
@@ -849,7 +955,6 @@ So, how to build a product content module with Stripo:
 There is another way to build product content modules with Stripo — [smart elements](https://stripo.email/blog/smart-elements-reducing-time-creating-similar-letters-automating/). You configure them just once, and next time, when building a new template, you just insert proper links and Stripo automatically retrieves and inserts correct data into the respective fields.
 
 ### 16\. Building countdown timers for emails
------------------------------------------
 
 Countdown timers in emails build a sense of urgency, notify recipients about the duration of the sale, or let them know how soon a certain event will start.
 
@@ -896,7 +1001,6 @@ You can build, design and add a timer to your HTML email template right in the e
 > Please, find more ideas and inspirational examples in our blog post [How to add a countdown timer in your email](https://stripo.email/blog/add-countdown-timer-email/).
 
 ### 17\. Adding spacer
-------------------
 
 Spacer, aka divider, does not drive conversions, or anything else. This is just a decorative element, which makes emails look structured and leads to a better and easier perception of email content.
 
@@ -927,7 +1031,6 @@ Spacer, aka divider, does not drive conversions, or anything else. This is just 
     
 
 ### 18\. Inserting social networking
---------------------------------
 
 Social networking icons, aka social media icons, can be located anywhere: in the menu, in the footer or somewhere in the middle of email — wherever you find it suitable.
 
@@ -963,7 +1066,6 @@ Social networking icons, aka social media icons, can be located anywhere: in the
 Your browser does not support HTML5 video tag.
 
 ### 19\. Building email footer
---------------------------
 
 [Email footer](https://stripo.email/blog/email-footer-design-best-practices/) normally contains contact information, like your website address, the reason why you’ve reached out to recipients, links to your social media accounts hidden behind the [social media icons](https://stripo.email/blog/add-social-media-icons-email-signature/), the [unsubscribe link](https://stripo.email/blog/7-tips-effective-email-unsubscribe-pages/) and name of the person who is responsible for the newsletter email. The latter is optional, yet all the elements that precede it, are mandatory.
 
@@ -985,7 +1087,6 @@ This is a compound element of emails. To build one, you need to:
 > Get inspired by the ideas for an effective email in [this blog post](https://stripo.email/blog/10-best-email-signature-design-examples/).
 
 ### 20\. Background color and image
--------------------------------
 
 Backgrounds applied to individual containers/stripes (aka rows) help you drag recipients' attention to certain elements. Backgrounds applied to entire emails make your design look complete and unified.
 
@@ -1029,7 +1130,6 @@ The background image will be shown on desktop devices only. It won’t be displa
 Some email clients, like Outlook, may not show the background image. Hence, we recommend also setting the background color, that is similar to the background image, to entire email.
 
 ### 21\. Writing subject line
--------------------------
 
 About one-third of [recipients judge by the subject line](https://stripo.email/blog/best-catchy-email-subject-lines/) whether to open emails or not.
 
@@ -1048,7 +1148,6 @@ Your browser does not support HTML5 video tag.
     
 
 ### 22\. Settings for email rendering on mobile devices
----------------------------------------------------
 
 Yes, in the General Settings tab, you’ve already set your preferences. Yet, they are applicable to desktop only. You need to specify your preferences for mobiles, also. Why would you?
 
@@ -1069,7 +1168,6 @@ Don’t let your customers miss the buttons :)
 *   set your preferences for headings size, for text size in different content areas, and text size in buttons.
 
 ### 23\. Building AMP emails
-------------------------
 
 In March 2019, Gmail rolled out its AMP for email. Now AMP emails are widely supported by many famous emails clients on desktops and even on mobiles by [Gmail app on Android, and iOS](https://stripo.email/blog/gmail-rolled-out-its-dev-preview-of-amp-emails-on-ios-and-android/) and by Mail.ru.
 
@@ -1089,7 +1187,6 @@ AMP blocks are inactive in your template. To check how it works, you need to ent
 > If you want to add any other AMP element in your template, please refer to [this blog post](https://stripo.email/blog/how-to-build-amp-emails-with-stripo/) to find out how to do it with Stripo.
 
 ### 24\. Optional email elements
-----------------------------
 
 To make your emails more effective or to make their design more vivid, you are welcome to add some of the following elements:
 
@@ -1127,7 +1224,6 @@ You can easily build the annotation code by using our [Promotion Annotations Bui
 Google just released its AMP for emails, but you already can [build AMP-emails with Stripo](https://stripo.email/blog/how-to-build-amp-emails-with-stripo/).
 
 ### 25\. Previewing and testing your emails
----------------------------------------
 
 Always preview and test your emails prior to sending out to recipients.  
 
@@ -1176,7 +1272,6 @@ Stripo also allows you to see all the previous tests.
 > For more information on how to preview/test your emails with our embedded email testing tool, please refer to [our blog post](https://stripo.email/blog/stripo-integration-with-email-on-acid-how-to-use-our-email-testing-tool/).
 
 ### 26\. Exporting email to your ESP
---------------------------------
 
 Once your email is completely finished, I mean — tested and polished, you can easily send it to your ESP.
 
@@ -1204,6 +1299,7 @@ When exporting email to an ESP for the first time, you will be asked to enter lo
 We do it to provide synchronization of account of the ESP you use with your account with Stripo. Yet, we do not store, nor can see your password with those systems.
 
 Little tips to significantly reduce email production time when working with Stripo
+
 ----------------------------------------------------------------------------------
 
 There are many of them, here I just want to mention a few of them:
