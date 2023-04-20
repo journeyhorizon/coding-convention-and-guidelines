@@ -65,7 +65,7 @@ Centralizing our ENV variable management is important for security reasons. Stor
 4. Add this line into local project's package.json, at the bottom of scripts part:
 
     ```json
-    "sync-env": "rm -f .env && aws secretsmanager get-secret-value --secret-id [Secret Id of project in Secret Manager] --region=ap-southeast-1 --query SecretString --output text --profile=[Input your env profile name] > .env.json && node ./scripts/json2env.js .env.json .env && rm -f env.json"
+    "sync-env": "rm -f .env && aws secretsmanager get-secret-value --secret-id [Secret Id of project in Secret Manager] --region=ap-southeast-1 --query SecretString --output text --profile=[Input your env profile name] > .env.json && node ./scripts/json2env.js .env.json .env && rm -f .env.json"
     ```
 
 5. Before you run a project, you can run this command:
