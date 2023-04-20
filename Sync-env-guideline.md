@@ -90,4 +90,6 @@ Centralizing our ENV variable management is important for security reasons. Stor
     MY_CUSTOM_ENV_2=567
     ```
 
-7. Remember to update ENV variables into Secret Manager after you finalize your feature to help others developers sync with env.
+7. Remember to ignore .env.* file
+
+8. Remember to update ENV variables into Secret Manager after you finalize your feature to help others developers sync with env.
