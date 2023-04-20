@@ -30,13 +30,13 @@ Centralizing our ENV variable management is important for security reasons. Stor
 
     - Setup aws profile in your local machine by using Cli:
         ```
-        aws configure --profile
+        aws configure --profile sync-env
         ``` 
         Then fullfill all info, and using output=json
     
     - Or you can open ~/.aws/credentials (Most of MacOS default settings) and input:
         ```
-        [envProfile]
+        [sync-env]
         aws_access_key_id=Input here
         aws_secret_access_key=Input here
         region=Input here
@@ -65,7 +65,7 @@ Centralizing our ENV variable management is important for security reasons. Stor
 4. Add this line into local project's package.json, at the bottom of scripts part:
 
     ```json
-    "sync-env": "rm -f .env && aws secretsmanager get-secret-value --secret-id [Secret Id (ARN) of project in Secret Manager] --region=ap-southeast-1 --query SecretString --output text --profile=[Input your env profile name] > .env.json && node ./scripts/json2env.js .env.json .env && rm -f .env.json"
+    "sync-env": "rm -f .env && aws secretsmanager get-secret-value --secret-id [Secret Id (ARN) of project in Secret Manager] --region=ap-southeast-1 --query SecretString --output text --profile=sync-env > .env.json && node ./scripts/json2env.js .env.json .env && rm -f .env.json"
     ```
 
 5. Before you run a project, you can run this command:
