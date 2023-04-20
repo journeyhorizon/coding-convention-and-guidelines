@@ -6,7 +6,16 @@ I think this idea is pretty cool, what do you think?
 
 The idea look like this, but I think we can do with our current approach: Secret Manager
 
-Here is how to work with it.
+-----------
+
+## Why should we do it:
+
+Centralizing our ENV variable management is important for security reasons. Storing ENV files in a centralized location with restricted access ensures that only authorized personnel can access sensitive information. This reduces the risk of information leaks, accidental exposure, or misuse of confidential data. In addition, it allows us to monitor and track who has access to our ENV files and when they are accessed, providing an added layer of security.
+
+-----------
+
+
+## Here is how to work with it.
 
 1. First you need to install aws cli:
 
@@ -80,3 +89,5 @@ Here is how to work with it.
     MY_CUSTOM_ENV=123
     MY_CUSTOM_ENV_2=567
     ```
+
+7. Remember to update ENV variables into Secret Manager after you finalize your feature to help others developers sync with env.
