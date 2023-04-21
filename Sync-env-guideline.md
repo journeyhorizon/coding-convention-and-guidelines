@@ -24,22 +24,30 @@ Centralizing our ENV variable management is important for security reasons. Stor
 
 2. Use aws cli to setup profile:
 
-    - Access to aws console -> secret manager (Mostly in JH's AWS, sometimes in client's aws console).
+    - Access to aws console and goto secret manager
 
-    - Get aws secret manager region, aws_access_key_id, aws_secret_access_key.
+    - Search team-secret/your-team-name
+
+    - Open it and get SYNC_ENV_ACCESS_KEY_ID, SYNC_ENV_SECRET_ACCESS_KEY
 
     - Setup aws profile in your local machine by using Cli:
         ```
         aws configure --profile sync-env
         ``` 
-        Then fullfill all info, and using output=json
+        Then fullfill all info, and using output=json and region=ap-southeast-1 (For projects store secret in our store)
+
+        ```
+        aws_access_key_id=SYNC_ENV_ACCESS_KEY_ID
+        aws_secret_access_key=SYNC_ENV_SECRET_ACCESS_KEY
+        region=ap-southeast-1
+        ```
     
     - Or you can open ~/.aws/credentials (Most of MacOS default settings) and input:
         ```
         [sync-env]
-        aws_access_key_id=Input here
-        aws_secret_access_key=Input here
-        region=Input here
+        aws_access_key_id=SYNC_ENV_ACCESS_KEY_ID
+        aws_secret_access_key=SYNC_ENV_SECRET_ACCESS_KEY
+        region=ap-southeast-1
         ```
 
 3. In /scripts directory of the project, create json2env.js file with content:
@@ -93,3 +101,14 @@ Centralizing our ENV variable management is important for security reasons. Stor
 7. Remember to ignore .env, .env.* file
 
 8. Remember to update ENV variables into Secret Manager after you finalize your feature to help others developers sync with env.
+
+-----------
+
+## NOTE:
+
+- Remember to add tags when you create a store in secret manager:
+
+    ```
+    team=your-team-name
+    environment=environment-of-project
+    ```
