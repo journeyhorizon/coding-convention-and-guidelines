@@ -1,4 +1,16 @@
 
+# Security Convention - Journey Horizon Guideline
+
+The Security Convention in Journey Horizon is a set of guidelines and protocols that are to be followed by each and every member of the organization. The purpose of this convention is to ensure the highest level of security for both our clients and the company itself.
+
+The convention is a comprehensive framework that covers all aspects of security, including data protection, physical security, cybersecurity, and personnel security. The guidelines outline best practices for securing sensitive information, preventing unauthorized access, and protecting against cyber attacks.
+
+All employees are expected to adhere to these guidelines at all times, and the company provides regular training and resources to ensure that everyone is up-to-date with the latest security protocols. In addition, the convention is regularly reviewed and updated to reflect any new threats or developments in the field of security.
+
+By following the Security Convention, Journey Horizon can provide its clients with the assurance that their data and assets are being protected to the highest standards, and that the company is taking every measure possible to safeguard against security breaches.
+
+
+
 ## Part I - General rules
 
 By following these security conventions, every member of Journey Horizon can ensure the high security level for our clients and company.
@@ -68,3 +80,8 @@ When a customer's keys are set up as public keys (used for client-side functiona
 ### 5. Working with Secret key
 
 Secret keys should be stored in the Secret Manager and **ABSOLUTELY** should not be placed or stored in a public location that is accessible to many people.
+
+
+
+
+
