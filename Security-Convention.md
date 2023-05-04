@@ -63,6 +63,8 @@ These actions aim to ensure the highest level of safety for our customers and to
 
 Please store all project environments variables on the secret manager (including projects that self-host environments on Heroku or on their own AWS, we should also have a copy in the company's Secret Manager and ensure it is synchronized with the customer's side).
 
+You can read Sync-env Guideline to know how to have good practice with env: https://github.com/journeyhorizon/coding-convention-and-guidelines/blob/master/Sync-env-guideline.md
+
 ### 2. Team secret
 
 All keys and team-specific secret information (shared flex console accounts, team-specific course accounts, shared Google API accounts, etc.) should be stored on the team's **SECRET MANAGER** on the company's AWS (the secret manager has the format: ***team-secret/your-team-name***, which has been created for each team). These pieces of information should not be stored on the company's Wiki anymore. ***Within 48 hours from this notification (09:00 04/05/2023), all key and secret information about the team on the Wiki will be deleted***.
