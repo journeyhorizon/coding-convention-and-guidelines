@@ -71,15 +71,34 @@ All keys and team-specific secret information (shared flex console accounts, tea
 
 If you want to store more secret data for each project (Which is not env variables) you can create secret manager with this format ``team-secret/your-team-name/project-name`` and add tag ``team=your-team-name``
 
-### 3. Sensitive data not from your working team
+### 3. Store pem file
+
+In regards to files containing security signatures such as PEM files (used to SSH into EC2 instances or other remote machines), certificate files, P12 files, etc., we will store them on the company's AWS S3 storage.
+Each team will have a default bucket in the form of:
+
+```
+team-[your-team-name]-secret 
+(for example: team-yang-secret)
+```
+
+This bucket will only be visible to members of the team. Additionally, teams can create additional buckets for their team in the form of: 
+
+```
+team-[your-team-name]-[whatever-you-want] 
+(for example: team-mobi-app-only), which only 
+```
+
+the team members will have access to.
+
+### 4. Sensitive data not from your working team
 
 **ABSOLUTELY DO NOT USE** api keys from other projects for any purpose in the project you are working on. If in some rare, exceptional cases, it is necessary to check security or correlation, it is **MANDATORY** to inform the PM of the team managing the project you want to use the api key for and receive permission. If not approved, do not use it. At the same time, inform your own team's PM to be aware of the situation."
 
-### 4. Working with Public key
+### 5. Working with Public key
 
 When a customer's keys are set up as public keys (used for client-side functionalities such as displaying maps, searching locations, using promo codes, etc.), it is mandatory to have a restricted domain, API rate limit, and restricted API functions (only open the functions that are needed).
 
-### 5. Working with Secret key
+### 6. Working with Secret key
 
 Secret keys should be stored in the Secret Manager and **ABSOLUTELY** should not be placed or stored in a public location that is accessible to many people.
 
