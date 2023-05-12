@@ -73,7 +73,7 @@ If you want to store more secret data for each project (Which is not env variabl
 
 ### 3. Store pem file
 
-In regards to files containing security signatures such as PEM files (used to SSH into EC2 instances or other remote machines), certificate files, P12 files, etc., we will store them on the company's AWS S3 storage.
+In regards to files containing security signatures and secret documents such as PEM files (used to SSH into EC2 instances or other remote machines), certificate files, P12 files, client's business secret, etc., we will store them on the company's AWS S3 storage.
 Each team will have a default bucket in the form of:
 
 ```
