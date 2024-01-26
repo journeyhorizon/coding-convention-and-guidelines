@@ -75,7 +75,7 @@ Returned error response for an server should always follow this structure, no ma
 
 ```ts
 interface Error {
-  name: string; //Must always have every letters capitalized and words separte by a *_*
+  name: string; //normal words separte by a *-*
   data?: any;
 } 
 ```
@@ -84,7 +84,7 @@ interface Error {
 
 ```js
 return {
-  name: 'FORBIDDEN',
+  name: 'current-user-is-not-admin',
   data: {
     message: 'Current user is only a normal user, only admin can access this'
   }
